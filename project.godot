@@ -11,8 +11,13 @@ config_version=5
 [application]
 
 config/name="GodotIddle"
+run/main_scene="res://test.tscn"
 config/features=PackedStringArray("4.2", "GL Compatibility")
 config/icon="res://icon.svg"
+
+[autoload]
+
+GLOBAL="*res://GLOBAL.gd"
 
 [rendering]
 
