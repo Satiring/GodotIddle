@@ -1,5 +1,6 @@
 extends Button
 
+signal add_coin
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -11,6 +12,7 @@ func _process(delta):
 	pass
 
 
-func _increment_coint_pressed():
+func _pressed():
 	GLOBAL.add_coin(1)
+	emit_signal("add_coin")
 	pass # Replace with function body.

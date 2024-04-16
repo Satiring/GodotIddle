@@ -1,7 +1,8 @@
-[gd_scene load_steps=5 format=3 uid="uid://bpt44prb78rk1"]
+[gd_scene load_steps=6 format=3 uid="uid://bpt44prb78rk1"]
 
 [ext_resource type="Script" path="res://Aumentar.gd" id="1_p5s1m"]
 [ext_resource type="Script" path="res://label_coins.gd" id="2_qawbf"]
+[ext_resource type="Script" path="res://Upgrade.gd" id="3_200p5"]
 [ext_resource type="Script" path="res://Heroes/Heroe1/Label_hero1.gd" id="4_0gceu"]
 [ext_resource type="Script" path="res://Heroes/Heroe1/Button_hero1.gd" id="5_e3ddo"]
 
@@ -15,25 +16,29 @@ grow_vertical = 2
 
 [node name="Label" type="Label" parent="."]
 layout_mode = 2
-offset_left = 1013.0
-offset_top = 12.0
-offset_right = 1093.0
-offset_bottom = 36.0
-text = "Monedas: 0"
+offset_left = 574.0
+offset_top = 276.0
+offset_right = 621.0
+offset_bottom = 300.0
 script = ExtResource("2_qawbf")
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
 layout_mode = 0
-offset_left = 304.0
-offset_top = 225.0
-offset_right = 469.0
-offset_bottom = 321.0
+offset_left = 707.0
+offset_top = 62.0
+offset_right = 872.0
+offset_bottom = 158.0
 
 [node name="Aumentar" type="Button" parent="VBoxContainer"]
 layout_mode = 2
 text = "Aumentar
 "
 script = ExtResource("1_p5s1m")
+
+[node name="Upgrade" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "Upgrade"
+script = ExtResource("3_200p5")
 
 [node name="Heroes" type="VBoxContainer" parent="." groups=["Heroes"]]
 layout_mode = 0
@@ -48,10 +53,15 @@ columns = 3
 
 [node name="Label_hero1" type="Label" parent="Heroes/Hero1"]
 layout_mode = 2
-text = "Coste del héroe 1: 10 monedas"
+text = "Coste del héroe 1: "
 script = ExtResource("4_0gceu")
 
 [node name="Button_hero1" type="Button" parent="Heroes/Hero1"]
 layout_mode = 2
 text = "Mejorar"
 script = ExtResource("5_e3ddo")
+
+[connection signal="pressed" from="VBoxContainer/Aumentar" to="Label" method="_on_update_pressed"]
+[connection signal="pressed" from="VBoxContainer/Aumentar" to="VBoxContainer/Aumentar" method="_increment_coint_pressed"]
+[connection signal="pressed" from="VBoxContainer/Upgrade" to="Label" method="_on_update_pressed"]
+[connection signal="pressed" from="VBoxContainer/Upgrade" to="VBoxContainer/Upgrade" method="_on_pressed"]

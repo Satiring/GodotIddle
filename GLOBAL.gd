@@ -1,7 +1,7 @@
 extends Node
 
 var coin: float
-var cpc:float
+var cpc:float #coin per click
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -16,6 +16,11 @@ func _process(delta):
 
 func add_coin(increment:float):
 	coin += increment * cpc
+
+	
+func subtract_coin(subtract :float):
+	coin -= subtract
 	
 func _get(property):
 	return property
+	

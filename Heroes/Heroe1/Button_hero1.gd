@@ -1,9 +1,12 @@
 extends Button
 
-@export var price:float = 10
+signal update_price(value)
+signal update_price_noValue
+var price:float
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
+	price = 10
 	pass # Replace with function body.
 
 
@@ -11,9 +14,10 @@ func _ready():
 func _process(delta):
 	pass
 
-
-func _on_pressed():
+func _pressed():
 	if GLOBAL.coin >= price:
 		GLOBAL.cpc += 1
-		GLOBAL.coin -= price
-	pass # Replace with function body.
+		GLOBAL.subtract_coin(price)
+		price *= 1.25
+		emit_signal("update_price", price)
+		emit_signal("update_price_noValue")
