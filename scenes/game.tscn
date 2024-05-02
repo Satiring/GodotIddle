@@ -1,11 +1,11 @@
 [gd_scene load_steps=5 format=3 uid="uid://bpt44prb78rk1"]
 
-[ext_resource type="Script" path="res://Cookie.gd" id="1_p5s1m"]
-[ext_resource type="Script" path="res://label_coins.gd" id="2_qawbf"]
-[ext_resource type="Texture2D" uid="uid://ch7fng4dfjqma" path="res://icon.svg" id="5_ek4n1"]
-[ext_resource type="PackedScene" uid="uid://8xjejnk354r8" path="res://builder.tscn" id="6_uujom"]
+[ext_resource type="Script" path="res://scripts/Cookie.gd" id="1_644ky"]
+[ext_resource type="Texture2D" uid="uid://ch7fng4dfjqma" path="res://icon.svg" id="2_137w2"]
+[ext_resource type="Script" path="res://scripts/label_coins.gd" id="3_d4sc5"]
+[ext_resource type="PackedScene" uid="uid://8xjejnk354r8" path="res://scenes/builder.tscn" id="4_d7s3n"]
 
-[node name="Control" type="Control"]
+[node name="Game" type="Control"]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -25,11 +25,11 @@ alignment = 1
 [node name="CookieClicker" type="PanelContainer" parent="Main"]
 layout_mode = 2
 size_flags_horizontal = 3
-script = ExtResource("1_p5s1m")
+script = ExtResource("1_644ky")
 
 [node name="CookieButton" type="Button" parent="Main/CookieClicker"]
 layout_mode = 2
-icon = ExtResource("5_ek4n1")
+icon = ExtResource("2_137w2")
 expand_icon = true
 
 [node name="ProgressContainers" type="PanelContainer" parent="Main"]
@@ -40,7 +40,7 @@ size_flags_horizontal = 3
 layout_mode = 2
 text = "[MONEY]"
 horizontal_alignment = 1
-script = ExtResource("2_qawbf")
+script = ExtResource("3_d4sc5")
 
 [node name="UpgradesContainer" type="PanelContainer" parent="Main"]
 layout_mode = 2
@@ -50,10 +50,7 @@ size_flags_horizontal = 3
 layout_mode = 2
 theme_override_constants/separation = 7
 
-[node name="Builder" parent="Main/UpgradesContainer/BuildersContainer" instance=ExtResource("6_uujom")]
-layout_mode = 2
-
-[node name="Builder2" parent="Main/UpgradesContainer/BuildersContainer" instance=ExtResource("6_uujom")]
+[node name="Builder" parent="Main/UpgradesContainer/BuildersContainer" instance=ExtResource("4_d7s3n")]
 layout_mode = 2
 
 [connection signal="pressed" from="Main/CookieClicker/CookieButton" to="Main/CookieClicker" method="_on_cookie_button_pressed"]
