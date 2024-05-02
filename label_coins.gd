@@ -3,8 +3,8 @@ extends Label
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	$"../Heroes/Hero1/Button_hero1".connect("update_price_noValue", update_price)
-	$"../VBoxContainer/Aumentar".connect("add_coin",update_price)
+	#$"../Heroes/Hero1/Button_hero1".connect("update_price_noValue", update_price)
+	#$"../VBoxContainer/Aumentar".connect("add_coin",update_price)
 	pass # Replace with function body.
 
 
