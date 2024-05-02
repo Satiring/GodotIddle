@@ -1,9 +1,11 @@
-[gd_scene load_steps=5 format=3 uid="uid://bpt44prb78rk1"]
+[gd_scene load_steps=7 format=3 uid="uid://bpt44prb78rk1"]
 
 [ext_resource type="Script" path="res://scripts/Cookie.gd" id="1_644ky"]
 [ext_resource type="Texture2D" uid="uid://ch7fng4dfjqma" path="res://icon.svg" id="2_137w2"]
 [ext_resource type="Script" path="res://scripts/label_coins.gd" id="3_d4sc5"]
 [ext_resource type="PackedScene" uid="uid://8xjejnk354r8" path="res://scenes/builder.tscn" id="4_d7s3n"]
+[ext_resource type="Script" path="res://scripts/MoneyByUser.gd" id="4_e2ui0"]
+[ext_resource type="Script" path="res://scripts/MoneyByBuilders.gd" id="5_b7567"]
 
 [node name="Game" type="Control"]
 layout_mode = 3
@@ -41,6 +43,19 @@ layout_mode = 2
 text = "[MONEY]"
 horizontal_alignment = 1
 script = ExtResource("3_d4sc5")
+
+[node name="MoneyByUser" type="Label" parent="Main/ProgressContainers"]
+layout_mode = 2
+text = "User: 00,00"
+vertical_alignment = 2
+script = ExtResource("4_e2ui0")
+
+[node name="MoneyByBuilders" type="Label" parent="Main/ProgressContainers"]
+layout_mode = 2
+text = "Builder: 00,00"
+horizontal_alignment = 2
+vertical_alignment = 2
+script = ExtResource("5_b7567")
 
 [node name="UpgradesContainer" type="PanelContainer" parent="Main"]
 layout_mode = 2
