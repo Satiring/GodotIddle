@@ -1,0 +1,32 @@
+[gd_scene load_steps=3 format=3 uid="uid://8xjejnk354r8"]
+
+[ext_resource type="StyleBox" uid="uid://j6ma4da02x1g" path="res://backoff_button.tres" id="1_f52u5"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ehiba"]
+content_margin_left = 3.0
+bg_color = Color(0.172549, 0.517647, 0.615686, 1)
+border_width_left = 2
+border_width_top = 3
+border_width_right = 20
+border_width_bottom = 3
+border_color = Color(0.117647, 0.0431373, 0.00392157, 1)
+corner_radius_top_left = 50
+
+[node name="Builder" type="Panel"]
+custom_minimum_size = Vector2(0, 75)
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_ehiba")
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/normal = ExtResource("1_f52u5")
+text = "[PRECIO]"

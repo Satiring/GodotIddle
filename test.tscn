@@ -1,9 +1,9 @@
 [gd_scene load_steps=5 format=3 uid="uid://bpt44prb78rk1"]
 
-[ext_resource type="Script" path="res://Aumentar.gd" id="1_p5s1m"]
+[ext_resource type="Script" path="res://Cookie.gd" id="1_p5s1m"]
 [ext_resource type="Script" path="res://label_coins.gd" id="2_qawbf"]
-[ext_resource type="Script" path="res://Heroes/Heroe1/Label_hero1.gd" id="4_0gceu"]
-[ext_resource type="Script" path="res://Heroes/Heroe1/Button_hero1.gd" id="5_e3ddo"]
+[ext_resource type="Texture2D" uid="uid://ch7fng4dfjqma" path="res://icon.svg" id="5_ek4n1"]
+[ext_resource type="PackedScene" uid="uid://8xjejnk354r8" path="res://builder.tscn" id="6_uujom"]
 
 [node name="Control" type="Control"]
 layout_mode = 3
@@ -13,45 +13,47 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="Label" type="Label" parent="."]
-layout_mode = 2
-offset_left = 1013.0
-offset_top = 12.0
-offset_right = 1093.0
-offset_bottom = 36.0
-text = "Monedas: 0"
-script = ExtResource("2_qawbf")
+[node name="Main" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+alignment = 1
 
-[node name="VBoxContainer" type="VBoxContainer" parent="."]
-layout_mode = 0
-offset_left = 304.0
-offset_top = 225.0
-offset_right = 469.0
-offset_bottom = 321.0
-
-[node name="Aumentar" type="Button" parent="VBoxContainer"]
+[node name="CookieClicker" type="PanelContainer" parent="Main"]
 layout_mode = 2
-text = "Aumentar
-"
+size_flags_horizontal = 3
 script = ExtResource("1_p5s1m")
 
-[node name="Heroes" type="VBoxContainer" parent="." groups=["Heroes"]]
-layout_mode = 0
-offset_left = 2.0
-offset_top = 4.0
-offset_right = 212.0
-offset_bottom = 641.0
-
-[node name="Hero1" type="GridContainer" parent="Heroes" groups=["Heroes"]]
+[node name="CookieButton" type="Button" parent="Main/CookieClicker"]
 layout_mode = 2
-columns = 3
+icon = ExtResource("5_ek4n1")
+expand_icon = true
 
-[node name="Label_hero1" type="Label" parent="Heroes/Hero1"]
+[node name="ProgressContainers" type="PanelContainer" parent="Main"]
 layout_mode = 2
-text = "Coste del héroe 1: 10 monedas"
-script = ExtResource("4_0gceu")
+size_flags_horizontal = 3
 
-[node name="Button_hero1" type="Button" parent="Heroes/Hero1"]
+[node name="MoneyLabel" type="Label" parent="Main/ProgressContainers"]
 layout_mode = 2
-text = "Mejorar"
-script = ExtResource("5_e3ddo")
+text = "[MONEY]"
+horizontal_alignment = 1
+script = ExtResource("2_qawbf")
+
+[node name="UpgradesContainer" type="PanelContainer" parent="Main"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="BuildersContainer" type="VBoxContainer" parent="Main/UpgradesContainer"]
+layout_mode = 2
+theme_override_constants/separation = 7
+
+[node name="Builder" parent="Main/UpgradesContainer/BuildersContainer" instance=ExtResource("6_uujom")]
+layout_mode = 2
+
+[node name="Builder2" parent="Main/UpgradesContainer/BuildersContainer" instance=ExtResource("6_uujom")]
+layout_mode = 2
+
+[connection signal="pressed" from="Main/CookieClicker/CookieButton" to="Main/CookieClicker" method="_on_cookie_button_pressed"]
