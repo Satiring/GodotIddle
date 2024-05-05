@@ -62,8 +62,14 @@ script = ExtResource("5_b7567")
 layout_mode = 2
 size_flags_horizontal = 3
 
-[node name="BuildersContainer" type="VBoxContainer" parent="Main/UpgradesContainer"]
+[node name="ScrollContainer" type="ScrollContainer" parent="Main/UpgradesContainer"]
 layout_mode = 2
+horizontal_scroll_mode = 0
+
+[node name="BuildersContainer" type="VBoxContainer" parent="Main/UpgradesContainer/ScrollContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
 theme_override_constants/separation = 7
 script = ExtResource("6_3yiw4")
 Builder = ExtResource("4_d7s3n")
