@@ -58,11 +58,6 @@ horizontal_alignment = 2
 vertical_alignment = 2
 script = ExtResource("5_b7567")
 
-[node name="UpgradesContainer" type="PanelContainer" parent="Main"]
-visible = false
-layout_mode = 2
-size_flags_horizontal = 3
-
 [node name="GridContainer" type="GridContainer" parent="Main"]
 layout_mode = 2
 size_flags_horizontal = 3
