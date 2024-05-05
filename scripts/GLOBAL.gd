@@ -1,21 +1,33 @@
 extends Node
 
-var coin: float = 0
+#var coin: float = 0
 var cpc: float = 5
 
-var coinsUser:float = 0
-var coinsBuilders:float = 0
+var coinsDictionary: Dictionary = {
+	Type.USER: 0,
+	Type.BUILDER: 0,
+	Type.UPGRADE: 0,
+	Type.TOTAL: 0,
+}
 
-enum Type{USER, BUILDER}
+func getCoins():
+	return coinsDictionary[Type.TOTAL]
+
+enum Type { USER , BUILDER, UPGRADE, TOTAL}
 enum STATUS{ LOCK, UNLOCK, NOT_PURCHASE, PURCHASE }
 
 signal coinChange()
+signal upgradeActivated(generatorID: int, multiplier: int)
 
-func change_coin(coinVariation:float,type:Type):
-	if coinVariation >0:
-		match type:
-			Type.USER: coinsUser += coinVariation
-			Type.BUILDER: coinsBuilders += coinVariation
+func change_coin(coinVariation:float,type:Type = 999):
+	if( type == 999 ):
+		return
+		
+	if coinVariation > 0:
+		self.coinChange.emit()
+		coinsDictionary[Type.TOTAL] += coinVariation
+		if type != null:
+			print("Se actualiza el contador de " + str(type))
+			coinsDictionary[type] += coinVariation
+			
 	
-	coin += coinVariation
-	self.coinChange.emit()
