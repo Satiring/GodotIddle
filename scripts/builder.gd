@@ -4,11 +4,16 @@ var cps:float = 0 #Coin per second
 var unlocked = false
 @export var valueImprove = 10
 var quantity = 0
+var originalColor = self.modulate 
 
 	
 func _process(delta):
 	if(quantity>0):
 		change_coin(cps*delta)
+	if GLOBAL.coin <= valueImprove:
+		self.modulate = Color(0.5, 0.5, 0.5) # Color gris (oscurecido)
+	else:
+		self.modulate = originalColor
 
 
 func _on_button_pressed():
