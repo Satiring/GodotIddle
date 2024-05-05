@@ -5,17 +5,19 @@ var isEnabled = false
 var quantity = 0
 var originalColor = self.modulate 
 var actualState = GLOBAL.STATUS.LOCK
+
 # PROPS
 var minValueLocked 
 var cost
-var generatorName = "Pepito"
+var generatorName
+var minValueEnabled
+
 # STATE VARIABLES
-var isWorking
+var isWorking = false
 
 func _ready():
 	GLOBAL.coinChange.connect(checkStatus)
 	self.visible = false
-	isWorking = false
 	toggleTimers(false)
 	
 func toggleTimers(enabled):
@@ -26,7 +28,6 @@ func toggleTimers(enabled):
 	
 func checkStatus():
 	var actualCoins = GLOBAL.coin
-	#print(actualState)
 	match actualState:
 		GLOBAL.STATUS.LOCK:
 			if minValueLocked <= actualCoins:
@@ -38,7 +39,6 @@ func checkStatus():
 				# Comprueba de nuevo el Estado
 				checkStatus()
 		GLOBAL.STATUS.UNLOCK:
-			var minValueEnabled = minValueLocked * 3
 			if minValueEnabled <= actualCoins:
 				actualState = GLOBAL.STATUS.NOT_PURCHASE
 				isEnabled = true
@@ -50,7 +50,7 @@ func checkStatus():
 func checkEnabledStatus():
 	var actualCoins = GLOBAL.coin
 	if isEnabled:
-		if actualCoins > cost:
+		if actualCoins >= cost:
 			actualState = GLOBAL.STATUS.PURCHASE
 			self.modulate = originalColor
 			# Cambiar el efecto 
@@ -65,6 +65,7 @@ func _on_button_pressed():
 		#upgrade props
 		quantity +=1
 		cps += 1.25*quantity
+		cost *= 1.25
 		# -------
 		updateUI()
 		if !isWorking: 
@@ -84,7 +85,8 @@ func setData(data):
 	generatorName = data.name
 	cost = data.initialCost
 	cps = data.initialCoinsPerTick
-	minValueLocked = data.minValueLocked
+	minValueLocked = cost*0.6
+	minValueEnabled = cost * 0.8
 	updateUI()
 
 

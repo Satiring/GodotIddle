@@ -3,7 +3,7 @@ extends VBoxContainer
 @export var GeneratorScene:PackedScene
 
 func _ready():
-	var dataJson = generateJSON("res://assets/MOCK_DATA_1.json")
+	var dataJson = generateJSON("res://assets/MOCK_DATA_GENERATOR.json")
 	if dataJson != null:
 		generateScenes(dataJson)
 	
