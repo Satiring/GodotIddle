@@ -7,6 +7,7 @@ var coinsUser:float = 0
 var coinsBuilders:float = 0
 
 enum Type{USER, BUILDER}
+enum STATUS{ LOCK, UNLOCK, NOT_PURCHASE, PURCHASE }
 
 signal coinChange()
 

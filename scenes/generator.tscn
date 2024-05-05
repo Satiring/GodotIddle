@@ -1,7 +1,7 @@
 [gd_scene load_steps=6 format=3 uid="uid://8xjejnk354r8"]
 
+[ext_resource type="Script" path="res://scripts/Generators/Generator.gd" id="1_6qjvh"]
 [ext_resource type="StyleBox" uid="uid://j6ma4da02x1g" path="res://assets/backoff_button.tres" id="1_f52u5"]
-[ext_resource type="Script" path="res://scripts/builder.gd" id="1_x86jw"]
 [ext_resource type="Texture2D" uid="uid://ch7fng4dfjqma" path="res://icon.svg" id="2_dds5s"]
 [ext_resource type="Texture2D" uid="uid://cfqv5nvgf4pdb" path="res://assets/cookie.png" id="4_odo2j"]
 
@@ -15,7 +15,7 @@ border_width_bottom = 3
 border_color = Color(0.117647, 0.0431373, 0.00392157, 1)
 corner_radius_top_left = 50
 
-[node name="Builder" type="Panel"]
+[node name="Generator" type="Panel"]
 custom_minimum_size = Vector2(10, 75)
 anchors_preset = 15
 anchor_right = 1.0
@@ -27,7 +27,7 @@ offset_bottom = -1.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_styles/panel = SubResource("StyleBoxFlat_ehiba")
-script = ExtResource("1_x86jw")
+script = ExtResource("1_6qjvh")
 
 [node name="Button" type="Button" parent="."]
 layout_mode = 1
@@ -88,7 +88,7 @@ text = "[Quantity ]"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="NameBuilderLabel" type="Label" parent="."]
+[node name="NameGeneratorLabel" type="Label" parent="."]
 unique_name_in_owner = true
 clip_contents = true
 layout_mode = 1
@@ -105,7 +105,7 @@ text = "[Name Builder]"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextureRect" type="TextureRect" parent="."]
+[node name="CookieIcon" type="TextureRect" parent="."]
 custom_minimum_size = Vector2(10, 10)
 layout_mode = 1
 anchors_preset = 6
@@ -124,4 +124,8 @@ localize_numeral_system = false
 texture = ExtResource("4_odo2j")
 expand_mode = 1
 
+[node name="GeneratorTimer" type="Timer" parent="."]
+unique_name_in_owner = true
+
 [connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
+[connection signal="timeout" from="GeneratorTimer" to="." method="_on_generator_timer_timeout"]
