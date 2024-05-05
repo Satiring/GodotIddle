@@ -2,6 +2,9 @@ extends VBoxContainer
 
 @export var Builder:PackedScene
 
+
+func _process(delta):
+	updateScenesVisibility()
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	var dataJson = generateJSON("res://assets/MOCK_DATA.json")
@@ -24,3 +27,13 @@ func generateScenes(dataJson):
 		var newScene = Builder.instantiate()
 		newScene.setData(data)
 		self.add_child(newScene)
+		
+func updateScenesVisibility():
+	for child in self.get_children():
+		var scene = child
+		if scene != null:
+			if scene.valueImprove >= GLOBAL.coin && scene.unlocked == false:
+				scene.visible = false
+			else:
+				scene.unlocked = true
+				scene.visible = true

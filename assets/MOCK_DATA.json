@@ -1,12 +1,12 @@
 [
-	{"name":"Antons","initialCost":33,"initialCoinsPerTick":33,"image":""},
-	{"name":"Cazzie","initialCost":51,"initialCoinsPerTick":21,"image":""},
-	{"name":"Bel","initialCost":53,"initialCoinsPerTick":35,"image":""},
-	{"name":"Gabbey","initialCost":256,"initialCoinsPerTick":19,"image":""},
-	{"name":"Stevena","initialCost":313,"initialCoinsPerTick":3,"image":""},
-	{"name":"Sollie","initialCost":369,"initialCoinsPerTick":20,"image":" "},
-	{"name":"Bradford","initialCost":404,"initialCoinsPerTick":42,"image":""},
-	{"name":"Gradey","initialCost":430,"initialCoinsPerTick":40,"image":""},
-	{"name":"Maynord","initialCost":450,"initialCoinsPerTick":84,"image":""},
-	{"name":"Lindsey","initialCost":943,"initialCoinsPerTick":64,"image":""}
+	{"name":"Antons","initialCost":33,"initialCoinsPerTick":10,"image":""},
+	{"name":"Cazzie","initialCost":51,"initialCoinsPerTick":20,"image":""},
+	{"name":"Bel","initialCost":53,"initialCoinsPerTick":30,"image":""},
+	{"name":"Gabbey","initialCost":256,"initialCoinsPerTick":40,"image":""},
+	{"name":"Stevena","initialCost":313,"initialCoinsPerTick":50,"image":""},
+	{"name":"Sollie","initialCost":369,"initialCoinsPerTick":60,"image":" "},
+	{"name":"Bradford","initialCost":404,"initialCoinsPerTick":70,"image":""},
+	{"name":"Gradey","initialCost":430,"initialCoinsPerTick":80,"image":""},
+	{"name":"Maynord","initialCost":450,"initialCoinsPerTick":90,"image":""},
+	{"name":"Lindsey","initialCost":943,"initialCoinsPerTick":100,"image":""}
 ]

@@ -1,7 +1,8 @@
 extends Node
 
 var cps:float = 0 #Coin per second
-var valueImprove = 10
+var unlocked = false
+@export var valueImprove = 10
 var quantity = 0
 
 	

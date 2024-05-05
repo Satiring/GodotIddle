@@ -59,14 +59,176 @@ vertical_alignment = 2
 script = ExtResource("5_b7567")
 
 [node name="UpgradesContainer" type="PanelContainer" parent="Main"]
+visible = false
 layout_mode = 2
 size_flags_horizontal = 3
 
-[node name="ScrollContainer" type="ScrollContainer" parent="Main/UpgradesContainer"]
+[node name="GridContainer" type="GridContainer" parent="Main"]
 layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/h_separation = -35
+
+[node name="ScrollImprovements" type="ScrollContainer" parent="Main/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+vertical_scroll_mode = 0
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Main/GridContainer/ScrollImprovements"]
+layout_mode = 2
+size_flags_horizontal = 3
+alignment = 1
+
+[node name="Button" type="Button" parent="Main/GridContainer/ScrollImprovements/HBoxContainer"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Main/GridContainer/ScrollImprovements/HBoxContainer/Button"]
+clip_contents = true
+custom_minimum_size = Vector2(10, 10)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+auto_translate = false
+localize_numeral_system = false
+texture = ExtResource("2_137w2")
+expand_mode = 1
+
+[node name="Button2" type="Button" parent="Main/GridContainer/ScrollImprovements/HBoxContainer"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Main/GridContainer/ScrollImprovements/HBoxContainer/Button2"]
+clip_contents = true
+custom_minimum_size = Vector2(10, 10)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+auto_translate = false
+localize_numeral_system = false
+texture = ExtResource("2_137w2")
+expand_mode = 1
+
+[node name="Button3" type="Button" parent="Main/GridContainer/ScrollImprovements/HBoxContainer"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Main/GridContainer/ScrollImprovements/HBoxContainer/Button3"]
+clip_contents = true
+custom_minimum_size = Vector2(10, 10)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+auto_translate = false
+localize_numeral_system = false
+texture = ExtResource("2_137w2")
+expand_mode = 1
+
+[node name="Button4" type="Button" parent="Main/GridContainer/ScrollImprovements/HBoxContainer"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Main/GridContainer/ScrollImprovements/HBoxContainer/Button4"]
+clip_contents = true
+custom_minimum_size = Vector2(10, 10)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+auto_translate = false
+localize_numeral_system = false
+texture = ExtResource("2_137w2")
+expand_mode = 1
+
+[node name="Button5" type="Button" parent="Main/GridContainer/ScrollImprovements/HBoxContainer"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Main/GridContainer/ScrollImprovements/HBoxContainer/Button5"]
+clip_contents = true
+custom_minimum_size = Vector2(10, 10)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+auto_translate = false
+localize_numeral_system = false
+texture = ExtResource("2_137w2")
+expand_mode = 1
+
+[node name="Button6" type="Button" parent="Main/GridContainer/ScrollImprovements/HBoxContainer"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Main/GridContainer/ScrollImprovements/HBoxContainer/Button6"]
+clip_contents = true
+custom_minimum_size = Vector2(10, 10)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+auto_translate = false
+localize_numeral_system = false
+texture = ExtResource("2_137w2")
+expand_mode = 1
+
+[node name="Button7" type="Button" parent="Main/GridContainer/ScrollImprovements/HBoxContainer"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Main/GridContainer/ScrollImprovements/HBoxContainer/Button7"]
+clip_contents = true
+custom_minimum_size = Vector2(10, 10)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+auto_translate = false
+localize_numeral_system = false
+texture = ExtResource("2_137w2")
+expand_mode = 1
+
+[node name="Button8" type="Button" parent="Main/GridContainer/ScrollImprovements/HBoxContainer"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Main/GridContainer/ScrollImprovements/HBoxContainer/Button8"]
+clip_contents = true
+custom_minimum_size = Vector2(10, 10)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+auto_translate = false
+localize_numeral_system = false
+texture = ExtResource("2_137w2")
+expand_mode = 1
+
+[node name="ScrollBuilders" type="ScrollContainer" parent="Main/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
 horizontal_scroll_mode = 0
 
-[node name="BuildersContainer" type="VBoxContainer" parent="Main/UpgradesContainer/ScrollContainer"]
+[node name="BuildersContainer" type="VBoxContainer" parent="Main/GridContainer/ScrollBuilders"]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
