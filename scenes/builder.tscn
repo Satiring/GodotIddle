@@ -57,7 +57,8 @@ localize_numeral_system = false
 texture = ExtResource("2_dds5s")
 expand_mode = 1
 
-[node name="Label" type="Label" parent="."]
+[node name="PriceLabel" type="Label" parent="."]
+unique_name_in_owner = true
 layout_mode = 1
 anchors_preset = 7
 anchor_left = 0.5
@@ -70,11 +71,12 @@ offset_right = 94.5
 offset_bottom = -4.0
 grow_horizontal = 2
 grow_vertical = 0
-text = "10,00"
+text = "[Price Label]"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="Label2" type="Label" parent="."]
+[node name="QuantityLabel" type="Label" parent="."]
+unique_name_in_owner = true
 layout_mode = 0
 offset_left = 28.0
 offset_top = 13.0
@@ -82,11 +84,12 @@ offset_right = 57.0
 offset_bottom = 82.0
 theme_override_colors/font_color = Color(1, 1, 1, 0.592157)
 theme_override_font_sizes/font_size = 50
-text = "0"
+text = "[Quantity ]"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="Label3" type="Label" parent="."]
+[node name="NameBuilderLabel" type="Label" parent="."]
+unique_name_in_owner = true
 clip_contents = true
 layout_mode = 1
 anchors_preset = 5
@@ -98,7 +101,7 @@ offset_right = -26.8499
 offset_bottom = 48.47
 grow_horizontal = 2
 theme_override_font_sizes/font_size = 24
-text = "CURSOR"
+text = "[Name Builder]"
 horizontal_alignment = 1
 vertical_alignment = 1
 

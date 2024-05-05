@@ -4,12 +4,10 @@ var cps:float = 0 #Coin per second
 var valueImprove = 10
 var quantity = 0
 
-@onready var priceLabel = $Label
-@onready var quantityLabel = $Label2
-
-
+	
 func _process(delta):
-	change_coin(cps*delta)
+	if(quantity>0):
+		change_coin(cps*delta)
 
 
 func _on_button_pressed():
@@ -21,9 +19,17 @@ func _on_button_pressed():
 		changeLabels()
 
 func changeLabels():
-	priceLabel.text = "%0.2f" % valueImprove
-	quantityLabel.text = str(quantity)
+	%PriceLabel.text = "%0.2f" % valueImprove
+	%QuantityLabel.text = str(quantity)
 	
 func change_coin(value):
 	GLOBAL.change_coin(value,GLOBAL.Type.BUILDER)
+	
+func setData(data):
+	%NameBuilderLabel.text = data.name
+	%QuantityLabel.text = str(0)
+	$PriceLabel.text = str(data.initialCost)
+	cps = data.initialCoinsPerTick
+	valueImprove = data.initialCost
+
 	

@@ -66,6 +66,9 @@ size_flags_horizontal = 3
 layout_mode = 2
 theme_override_constants/separation = 7
 script = ExtResource("6_3yiw4")
-Builder = ExtResource("4_d7s3n")
+builder = ExtResource("4_d7s3n")
+
+[node name="Builder" parent="Main/UpgradesContainer/BuildersContainer" instance=ExtResource("4_d7s3n")]
+layout_mode = 2
 
 [connection signal="pressed" from="Main/CookieClicker/CookieButton" to="Main/CookieClicker" method="_on_cookie_button_pressed"]

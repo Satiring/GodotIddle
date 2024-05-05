@@ -1,6 +1,6 @@
 extends Node
 
-var coin: float = 5
+var coin: float = 0
 var cpc: float = 5
 
 var coinsUser:float = 0
