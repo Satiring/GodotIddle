@@ -1,13 +1,16 @@
-[gd_scene load_steps=3 format=3 uid="uid://rbpk6b205lav"]
+[gd_scene load_steps=4 format=3 uid="uid://rbpk6b205lav"]
 
-[ext_resource type="Script" path="res://scripts/UpgradeIcon.gd" id="1_dy4be"]
-[ext_resource type="Texture2D" uid="uid://ch7fng4dfjqma" path="res://icon.svg" id="1_u08qv"]
+[ext_resource type="StyleBox" uid="uid://dwxqdcslqobfg" path="res://styles_overrides/green_enabled.tres" id="1_8ltgx"]
+[ext_resource type="Script" path="res://scripts/Upgrades/UpgradeIcon.gd" id="1_dy4be"]
+[ext_resource type="StyleBox" uid="uid://b161ux2x3ucpp" path="res://styles_overrides/red_disabled.tres" id="2_8yawi"]
 
-[node name="upgrade" type="Button"]
+[node name="upgradeButton" type="Button"]
 custom_minimum_size = Vector2(50, 50)
+theme_override_styles/normal = ExtResource("1_8ltgx")
+theme_override_styles/disabled = ExtResource("2_8yawi")
 script = ExtResource("1_dy4be")
 
-[node name="IconTexture" type="TextureRect" parent="."]
+[node name="Container" type="VBoxContainer" parent="."]
 clip_contents = true
 custom_minimum_size = Vector2(10, 10)
 layout_mode = 1
@@ -18,5 +21,22 @@ grow_horizontal = 2
 grow_vertical = 2
 auto_translate = false
 localize_numeral_system = false
-texture = ExtResource("1_u08qv")
-expand_mode = 1
+
+[node name="IDLABEL" type="Label" parent="Container"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(50, 25)
+layout_mode = 2
+theme_type_variation = &"TooltipLabel"
+text = "[ID]"
+horizontal_alignment = 1
+
+[node name="PriceLabel" type="Label" parent="Container"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(50, 25)
+layout_mode = 2
+theme_type_variation = &"TooltipLabel"
+theme_override_font_sizes/font_size = 12
+text = "[Price]"
+horizontal_alignment = 1
+
+[connection signal="pressed" from="." to="." method="_on_button_pressed"]

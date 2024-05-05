@@ -2,10 +2,10 @@
 
 [ext_resource type="Script" path="res://scripts/Cookie.gd" id="1_644ky"]
 [ext_resource type="Texture2D" uid="uid://ch7fng4dfjqma" path="res://icon.svg" id="2_137w2"]
-[ext_resource type="Script" path="res://scripts/CoinsLabel.gd" id="3_d4sc5"]
-[ext_resource type="Script" path="res://scripts/MoneyByUser.gd" id="4_e2ui0"]
-[ext_resource type="Script" path="res://scripts/MoneyByBuilders.gd" id="5_b7567"]
+[ext_resource type="Script" path="res://scripts/Utils/SingleTypeCoinLabel.gd" id="4_34g75"]
 [ext_resource type="Script" path="res://scripts/Generators/GeneratorsFactory.gd" id="6_3yiw4"]
+[ext_resource type="Script" path="res://scripts/Upgrades/UpgradesFactory.gd" id="6_051gn"]
+[ext_resource type="PackedScene" uid="uid://rbpk6b205lav" path="res://scenes/upgrade.tscn" id="6_ecxh7"]
 [ext_resource type="PackedScene" uid="uid://8xjejnk354r8" path="res://scenes/generator.tscn" id="8_tfb25"]
 
 [node name="Game" type="Control"]
@@ -35,28 +35,30 @@ layout_mode = 2
 icon = ExtResource("2_137w2")
 expand_icon = true
 
-[node name="ProgressContainers" type="PanelContainer" parent="Main"]
+[node name="ProgressContainers" type="VBoxContainer" parent="Main"]
 layout_mode = 2
-size_flags_horizontal = 3
+size_flags_horizontal = 6
+size_flags_vertical = 4
 
-[node name="MoneyLabel" type="Label" parent="Main/ProgressContainers"]
+[node name="TotalMoneyText" type="Label" parent="Main/ProgressContainers"]
 layout_mode = 2
-text = "[MONEY]"
-horizontal_alignment = 1
-script = ExtResource("3_d4sc5")
+text = "[TOTAL]"
+script = ExtResource("4_34g75")
+CustomText = "Total Money"
+CustomTarget = 3
 
-[node name="MoneyByUser" type="Label" parent="Main/ProgressContainers"]
+[node name="BuilderMoneyText" type="Label" parent="Main/ProgressContainers"]
 layout_mode = 2
-text = "User: 00,00"
-vertical_alignment = 2
-script = ExtResource("4_e2ui0")
+text = "[BUILDER]"
+script = ExtResource("4_34g75")
+CustomText = "BuilderMoney: "
+CustomTarget = 1
 
-[node name="MoneyByBuilders" type="Label" parent="Main/ProgressContainers"]
+[node name="UserMoneyText" type="Label" parent="Main/ProgressContainers"]
 layout_mode = 2
-text = "Builder: 00,00"
-horizontal_alignment = 2
-vertical_alignment = 2
-script = ExtResource("5_b7567")
+text = "[USER]"
+script = ExtResource("4_34g75")
+CustomText = "UserMoney: "
 
 [node name="GridContainer" type="GridContainer" parent="Main"]
 layout_mode = 2
@@ -72,6 +74,8 @@ vertical_scroll_mode = 0
 layout_mode = 2
 size_flags_horizontal = 3
 alignment = 1
+script = ExtResource("6_051gn")
+UpgradeScene = ExtResource("6_ecxh7")
 
 [node name="ScrollBuilders" type="ScrollContainer" parent="Main/GridContainer"]
 layout_mode = 2
