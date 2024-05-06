@@ -97,8 +97,8 @@ func setData(data):
 	minValueEnabled = cost * 0.8
 	updateUI()
 
-func upgradeActivated(generatorId, multiplier):
-	if id == generatorId:
+func upgradeActivated(generatorIds: Array, multiplier):
+	if generatorIds.has(str(id)):
 		cpsMultiplier += multiplier 
 		updateUI()
 

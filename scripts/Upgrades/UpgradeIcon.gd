@@ -3,7 +3,7 @@ extends Button
 #var unlocked = false
 @export var IconTexture: Texture2D
 var cost: int
-var generatorID: int
+var generatorIDs: Array
 var multiplier: int
 var unlocked: bool = false
 
@@ -20,7 +20,7 @@ func _on_button_pressed():
 		self.visible = false
 		unlocked = true
 		GLOBAL.change_coin(-cost, GLOBAL.Type.UPGRADE)
-		GLOBAL.upgradeActivated.emit(generatorID, multiplier)
+		GLOBAL.upgradeActivated.emit(generatorIDs, multiplier)
 
 func checkStatus():
 	if unlocked:
@@ -34,12 +34,12 @@ func checkStatus():
 
 func setData(data: Dictionary):
 	cost = data.get("cost")
-	generatorID = int(data.get("generatorID"))
+	generatorIDs = Array(data.get("generatorIDs"))
 	multiplier = data.get("multiplier")
 	updateUI()
 	
 func updateUI():
-	%IDLABEL.text = str(generatorID)
+	%IDLABEL.text = str(generatorIDs)
 	%PriceLabel.text = str(cost)
 
 	

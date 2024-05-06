@@ -17,7 +17,7 @@ enum Type { USER , BUILDER, UPGRADE, TOTAL}
 enum STATUS{ LOCK, UNLOCK, NOT_PURCHASE, PURCHASE }
 
 signal coinChange()
-signal upgradeActivated(generatorID: int, multiplier: int)
+signal upgradeActivated(generatorID: Array[int], multiplier: int)
 
 func change_coin(coinVariation:float,type:Type = 999):
 	if( type == 999 ):
@@ -27,7 +27,6 @@ func change_coin(coinVariation:float,type:Type = 999):
 		self.coinChange.emit()
 		coinsDictionary[Type.TOTAL] += coinVariation
 		if type != null:
-			print("Se actualiza el contador de " + str(type))
 			coinsDictionary[type] += coinVariation
 			
 	

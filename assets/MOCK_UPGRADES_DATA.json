@@ -1,10 +1,10 @@
 [
-	{"generatorID":"1","cost":1,"multiplier":2},
-	{"generatorID":"1","cost":150,"multiplier":2},
-	{"generatorID":"1","cost":300,"multiplier":2},
-	{"generatorID":"1","cost":400,"multiplier":3},
-	{"generatorID":"1","cost":500,"multiplier":4},
-	{"generatorID":"2","cost":150,"multiplier":3},
-	{"generatorID":"2","cost":200,"multiplier":5},
-	{"generatorID":"3","cost":330,"multiplier":5},
+	{"generatorIDs":["1"],"cost":1,"multiplier":2},
+	{"generatorIDs":["1","2","3"],"cost":150,"multiplier":2},
+	{"generatorIDs":["1"],"cost":300,"multiplier":2},
+	{"generatorIDs":["1"],"cost":400,"multiplier":3},
+	{"generatorIDs":["1"],"cost":500,"multiplier":4},
+	{"generatorIDs":["1"],"cost":150,"multiplier":3},
+	{"generatorIDs":["2"],"cost":200,"multiplier":5},
+	{"generatorIDs":["3"],"cost":330,"multiplier":5},
 ]
