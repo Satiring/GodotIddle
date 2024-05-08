@@ -3,9 +3,13 @@ extends VBoxContainer
 @export var GeneratorScene:PackedScene
 
 func _ready():
-	var dataJson = generateJSON("res://assets/MOCK_DATA_GENERATOR.json")
-	if dataJson != null:
-		generateScenes(dataJson)
+	var dataJson = generateJSON("res://assets/generators_data.json")
+	if dataJson == null:
+		return
+
+
+	for data in dataJson:
+		generateElementInChild(data)
 	
 func generateJSON(route:String):
 	var file = FileAccess.open(route,FileAccess.READ)
@@ -18,8 +22,9 @@ func generateJSON(route:String):
 	else:
 		return null
 
-func generateScenes(dataJson):
-	for data in dataJson:
-		var newScene = GeneratorScene.instantiate()
-		newScene.setData(data)
-		self.add_child(newScene)
+
+func generateElementInChild(data: Dictionary):
+	var newElement = GeneratorScene.instantiate()
+
+	newElement.setData(data)
+	self.add_child(newElement)

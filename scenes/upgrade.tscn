@@ -1,14 +1,14 @@
 [gd_scene load_steps=4 format=3 uid="uid://rbpk6b205lav"]
 
 [ext_resource type="StyleBox" uid="uid://dwxqdcslqobfg" path="res://styles_overrides/green_enabled.tres" id="1_8ltgx"]
-[ext_resource type="Script" path="res://scripts/Upgrades/UpgradeIcon.gd" id="1_dy4be"]
 [ext_resource type="StyleBox" uid="uid://b161ux2x3ucpp" path="res://styles_overrides/red_disabled.tres" id="2_8yawi"]
+[ext_resource type="Script" path="res://scripts/Upgrades/Upgrade.gd" id="3_ljpyp"]
 
 [node name="upgradeButton" type="Button"]
 custom_minimum_size = Vector2(50, 50)
 theme_override_styles/normal = ExtResource("1_8ltgx")
 theme_override_styles/disabled = ExtResource("2_8yawi")
-script = ExtResource("1_dy4be")
+script = ExtResource("3_ljpyp")
 
 [node name="Container" type="VBoxContainer" parent="."]
 clip_contents = true
