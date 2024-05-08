@@ -3,6 +3,7 @@ extends Node
 #var math_utils = preload("res://scripts/Utils/math_utils.gd")
 
 var cps:float = 0 #Coin per second
+var baseCps:float = 0
 var cpsMultiplier: int = 1 #UPgrade Multiplier
 var actualCost: float = 0
 var isEnabled = false
@@ -33,7 +34,7 @@ func handle_string(input_string: String) -> float:
 func setData(data: Dictionary):
 	#~Set Properties
 	baseCost = handle_string(data.get("Base Cost"))
-	cps = handle_string(data.get("Base CpS"))
+	baseCps = handle_string(data.get("Base CpS"))
 	actualCost = baseCost
 	generatorName = data.get("Building")
 	id = data.get("ID")
@@ -67,6 +68,7 @@ func checkStatus():
 		GLOBAL.STATUS.LOCK:
 			var minValueLocked = (baseCost * 0.4)
 			if minValueLocked <= actualCoins:
+				updateUI("?????")
 				print(generatorName + " Me pongo visible: " + str(minValueLocked))
 				# Cambia estado a UNLOCK
 				actualState = GLOBAL.STATUS.UNLOCK
@@ -90,7 +92,7 @@ func checkEnabledStatus():
 	if isEnabled:
 		if actualCoins >= actualCost:
 			actualState = GLOBAL.STATUS.PURCHASE
-			updateUI("?????")
+			updateUI()
 			self.modulate = originalColor
 			# Cambiar el efecto 
 		else:
@@ -103,8 +105,8 @@ func _on_button_pressed():
 		change_coin(-actualCost)
 		#upgrade props
 		quantity +=1
-		cps += 1.25*quantity
-		actualCost *= 1.25
+		cps += baseCps * cpsMultiplier
+		actualCost = actualCost * (1.15 **quantity)  
 		# -------
 		updateUI()
 		if !isWorking: 
@@ -116,6 +118,10 @@ func updateUI(label : String = "" ):
 		%NameGeneratorLabel.text = generatorName + " CPS: " + str(get_cps())
 		%PriceLabel.text = "%0.2f" % actualCost
 		%QuantityLabel.text = str(quantity)
+	else:
+		%NameGeneratorLabel.text = label
+		%PriceLabel.text = str(actualCost)
+		%QuantityLabel.text = label
 	
 func change_coin(value):
 	GLOBAL.change_coin(value,GLOBAL.Type.BUILDER)

@@ -1,7 +1,6 @@
 [gd_scene load_steps=6 format=3 uid="uid://8xjejnk354r8"]
 
 [ext_resource type="Script" path="res://scripts/Generators/Generator.gd" id="1_6qjvh"]
-[ext_resource type="StyleBox" uid="uid://j6ma4da02x1g" path="res://assets/backoff_button.tres" id="1_f52u5"]
 [ext_resource type="Texture2D" uid="uid://ch7fng4dfjqma" path="res://icon.svg" id="2_dds5s"]
 [ext_resource type="Texture2D" uid="uid://cfqv5nvgf4pdb" path="res://assets/cookie.png" id="4_odo2j"]
 
@@ -14,6 +13,10 @@ border_width_right = 20
 border_width_bottom = 3
 border_color = Color(0.117647, 0.0431373, 0.00392157, 1)
 corner_radius_top_left = 50
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_mldgr"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+draw_center = false
 
 [node name="Generator" type="Panel"]
 custom_minimum_size = Vector2(10, 75)
@@ -36,7 +39,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-theme_override_styles/normal = ExtResource("1_f52u5")
+theme_override_styles/normal = SubResource("StyleBoxFlat_mldgr")
 
 [node name="TextureRect" type="TextureRect" parent="Button"]
 custom_minimum_size = Vector2(10, 10)

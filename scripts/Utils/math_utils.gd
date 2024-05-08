@@ -72,7 +72,7 @@ static func parse_power_type(power_type: String) -> Powers:
 
 
 
-static func raise_to_power(base: int, exponent: int) -> float:
+static func raise_to_power(base: float, exponent: float) -> float:
 	var result = base ** exponent
 	return result
 	

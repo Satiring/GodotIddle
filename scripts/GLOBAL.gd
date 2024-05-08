@@ -28,5 +28,6 @@ func change_coin(coinVariation:float,type:Type = 999):
 		coinsDictionary[Type.TOTAL] += coinVariation
 		if type != null:
 			coinsDictionary[type] += coinVariation
-			
+	elif coinVariation < 0:
+		coinsDictionary[Type.TOTAL] += coinVariation
 	

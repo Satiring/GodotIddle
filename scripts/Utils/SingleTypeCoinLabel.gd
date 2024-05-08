@@ -8,5 +8,5 @@ func _ready():
 
 
 func update_price():
-	self.text = CustomText + str(GLOBAL.coinsDictionary[CustomTarget])
+	self.text = CustomText+': %0.2f' % GLOBAL.coinsDictionary[CustomTarget]
 	
