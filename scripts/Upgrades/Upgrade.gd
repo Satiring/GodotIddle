@@ -35,8 +35,8 @@ func checkStatus():
 	var actualCoins = GLOBAL.getCoins()
 	#if actualCoins >= cost / 10:
 		#self.visible = true
-	#if	actualCoins >= cost:
-		#self.disabled = false
+	if	actualCoins >= cost && self.visible == true: 
+		self.disabled = false
 		
 func extractDataFromCondition(condition: String):
 	const valuePosition = 1
@@ -71,7 +71,6 @@ func checkUpgrade(generatorTypeUpgraded: generator_type.Generators):
 	var name = generator_type.findNameByGenerator(generatorType)
 	var isTheSameType = generatorTypeUpgraded == generatorType
 	if  isTheSameType :
-		print(isTheSameType)
 		var isMinimumAdquired = GLOBAL.buildersDictionary[generatorType] >= minValueUnlock
 		if isMinimumAdquired:
 			self.visible = true
