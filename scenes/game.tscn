@@ -1,9 +1,10 @@
-[gd_scene load_steps=9 format=3 uid="uid://bpt44prb78rk1"]
+[gd_scene load_steps=10 format=3 uid="uid://bpt44prb78rk1"]
 
 [ext_resource type="Script" path="res://scripts/Cookie.gd" id="1_644ky"]
 [ext_resource type="Theme" uid="uid://5k0knt2xudq1" path="res://assets/tres/cookieAnimation.tres" id="2_xqovl"]
 [ext_resource type="Texture2D" uid="uid://bjpoogmdmxr2p" path="res://assets/perfectCookie.png" id="3_yolma"]
 [ext_resource type="Script" path="res://scripts/SingleTypeCoinLabel.gd" id="4_34g75"]
+[ext_resource type="AudioStream" uid="uid://bg1ef6vi5kr65" path="res://assets/sounds/click1.mp3" id="4_cmk4t"]
 [ext_resource type="Script" path="res://scripts/Generators/GeneratorsFactory.gd" id="6_3yiw4"]
 [ext_resource type="Script" path="res://scripts/Upgrades/UpgradesFactory.gd" id="6_051gn"]
 [ext_resource type="PackedScene" uid="uid://rbpk6b205lav" path="res://scenes/upgrade.tscn" id="6_ecxh7"]
@@ -36,6 +37,11 @@ layout_mode = 2
 theme = ExtResource("2_xqovl")
 icon = ExtResource("3_yolma")
 expand_icon = true
+
+[node name="cookieClick" type="AudioStreamPlayer2D" parent="Main/CookieClicker"]
+stream = ExtResource("4_cmk4t")
+volume_db = 0.04
+pitch_scale = 1.95
 
 [node name="ProgressContainers" type="VBoxContainer" parent="Main"]
 layout_mode = 2
