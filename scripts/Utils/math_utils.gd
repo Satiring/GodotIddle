@@ -1,4 +1,4 @@
-class_name mathUtils extends Node
+class_name math_utils extends Node
 
 enum Powers {
 	ZERO_POWER = 0,
@@ -87,3 +87,13 @@ static func calculate_powered_value(number: float, power: Powers) -> float:
 
 static func calculate_powered_value_parse(number: float, power_type: String) -> float:
 	return calculate_powered_value(number, parse_power_type(power_type))
+
+static func parseStringToFloat(input_string: String) -> float:
+	if input_string.contains(" "):
+		var parts = input_string.split(" ")
+		return calculate_powered_value_parse(parts[0].to_float(), parts[1])
+	elif input_string.contains(","):
+		var parts = input_string.split(",")
+		return calculate_powered_value(parts[0].to_float(), Powers.THOUSAND)
+	else:
+		return calculate_powered_value(input_string.to_float(), Powers.ZERO_POWER)

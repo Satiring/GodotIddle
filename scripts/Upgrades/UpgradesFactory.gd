@@ -3,12 +3,17 @@ extends HBoxContainer
 @export var UpgradeScene:PackedScene
 
 func _ready():
-	var dataJson = generateJSON("res://assets/MOCK_UPGRADES_DATA.json")
+	var dataJson = generateJSON("res://assets/upgrades_data.json")
 	if dataJson == null:
 		return
 		
-	for data in dataJson:
-		generateElementInChild(data)
+	for upgrades in dataJson:
+		for upgrade in upgrades.keys():
+			for element in upgrades[upgrade]:
+				generateElementInChild(element, upgrade)
+				
+			
+			
 	
 func generateJSON(route:String):
 	var file = FileAccess.open(route,FileAccess.READ)
@@ -21,7 +26,7 @@ func generateJSON(route:String):
 	else:
 		return null
 		
-func generateElementInChild(data: Dictionary):
+func generateElementInChild(data: Dictionary, type: String):
 	var newElement = UpgradeScene.instantiate()
-	newElement.setData(data)
+	newElement.setData(data, type)
 	self.add_child(newElement)

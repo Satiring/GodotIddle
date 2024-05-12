@@ -1,0 +1,1717 @@
+[
+  {"cursor" :  [
+ {
+   "Icon": "",
+   "Name": "Reinforced index finger",
+   "Unlock condition": "Own 1 cursor",
+   "Base price": "10",
+   "Description": "The mouse and cursors are twice as efficient.\n\"prod prod\"",
+   "ID": 0
+ },
+ {
+   "Icon": "",
+   "Name": "Carpal tunnel prevention cream",
+   "Unlock condition": "Own 1 cursor",
+   "Base price": "500",
+   "Description": "The mouse and cursors are twice as efficient.\n\"it... it hurts to click...\"",
+   "ID": 1
+ },
+ {
+   "Icon": "",
+   "Name": "Ambidextrous",
+   "Unlock condition": "Own 10 cursors",
+   "Base price": "10,000",
+   "Description": "The mouse and cursors are twice as efficient.\n\"Look ma, both hands!\"",
+   "ID": 2
+ },
+ {
+   "Icon": "",
+   "Name": "Thousand fingers",
+   "Unlock condition": "Own 25 cursors",
+   "Base price": "100,000",
+   "Description": "The mouse and cursors gain +0.1 cookies for each non-cursor object owned.\n\"clickity\"",
+   "ID": 3
+ },
+ {
+   "Icon": "",
+   "Name": "Million fingers",
+   "Unlock condition": "Own 50 cursors",
+   "Base price": "10 million",
+   "Description": "Multiplies the gain from Thousand fingers by 5.\n\"clickityclickity\"",
+   "ID": 4
+ },
+ {
+   "Icon": "",
+   "Name": "Billion fingers",
+   "Unlock condition": "Own 100 cursors",
+   "Base price": "100 million",
+   "Description": "Multiplies the gain from Thousand fingers by 10.\n\"clickityclickityclickity\"",
+   "ID": 5
+ },
+ {
+   "Icon": "",
+   "Name": "Trillion fingers",
+   "Unlock condition": "Own 150 cursors",
+   "Base price": "1 billion",
+   "Description": "Multiplies the gain from Thousand fingers by 20.\n\"clickityclickityclickityclickity\"",
+   "ID": 6
+ },
+ {
+   "Icon": "",
+   "Name": "Quadrillion fingers",
+   "Unlock condition": "Own 200 cursors",
+   "Base price": "10 billion",
+   "Description": "Multiplies the gain from Thousand fingers by 20.\n\"clickityclickityclickityclickityclick\"",
+   "ID": 43
+ },
+ {
+   "Icon": "",
+   "Name": "Quintillion fingers",
+   "Unlock condition": "Own 250 cursors",
+   "Base price": "10 trillion",
+   "Description": "Multiplies the gain from Thousand fingers by 20.\n\"man, just go click click click click click, it’s real easy, man.\"",
+   "ID": 82
+ },
+ {
+   "Icon": "",
+   "Name": "Sextillion fingers",
+   "Unlock condition": "Own 300 cursors",
+   "Base price": "10 quadrillion",
+   "Description": "Multiplies the gain from Thousand fingers by 20.\n\"sometimes\nthings just\nclick\"",
+   "ID": 109
+ },
+ {
+   "Icon": "",
+   "Name": "Septillion fingers",
+   "Unlock condition": "Own 350 cursors",
+   "Base price": "10 quintillion",
+   "Description": "Multiplies the gain from Thousand fingers by 20.\n\"[cursory flavor text]\"",
+   "ID": 188
+ },
+ {
+   "Icon": "",
+   "Name": "Octillion fingers",
+   "Unlock condition": "Own 400 cursors",
+   "Base price": "10 sextillion",
+   "Description": "Multiplies the gain from Thousand fingers by 20..\n\"Turns out you can quite put your finger on it.\"",
+   "ID": 189
+ },
+ {
+   "Icon": "",
+   "Name": "Nonillion fingers",
+   "Unlock condition": "Own 450 cursors",
+   "Base price": "10 septillion",
+   "Description": "Multiplies the gain from Thousand fingers by 20.\n\"Only for the freakiest handshakes.\"",
+   "ID": 660
+ },
+ {
+   "Icon": "",
+   "Name": "Decillion fingers",
+   "Unlock condition": "Own 500 cursors",
+   "Base price": "10 octillion",
+   "Description": "Multiplies the gain from Thousand fingers by 20.\n\"If you still can't quite put your finger on it, you must not be trying very hard.\"",
+   "ID": 764
+ },
+ {
+   "Icon": "",
+   "Name": "Undecillion fingers",
+   "Unlock condition": "Own 550 cursors",
+   "Base price": "10 nonillion",
+   "Description": "Multiplies the gain from Thousand fingers by 20.\n\"Whatever you touch\nturns to dough in your clutch.\"",
+   "ID": 873
+ }
+]},
+  {"grandma":  [
+ {
+   "Icon": "",
+   "Name": "Forwards from grandma",
+   "Unlock condition": "Own 1 grandma",
+   "Base price": "1,000",
+   "Description": "Grandmas are twice as efficient.\n\"RE:RE:thought you'd get a kick out of this ;))\"",
+   "ID": 7
+ },
+ {
+   "Icon": "",
+   "Name": "Steel-plated rolling pins",
+   "Unlock condition": "Own 5 grandmas",
+   "Base price": "5,000",
+   "Description": "Grandmas are twice as efficient.\n\"Just what you kneaded.\"",
+   "ID": 8
+ },
+ {
+   "Icon": "",
+   "Name": "Lubricated dentures",
+   "Unlock condition": "Own 25 grandmas",
+   "Base price": "50,000",
+   "Description": "Grandmas are twice as efficient.\n\"squish\"",
+   "ID": 9
+ },
+ {
+   "Icon": "",
+   "Name": "Prune juice",
+   "Unlock condition": "Own 50 grandmas",
+   "Base price": "5 million",
+   "Description": "Grandmas are twice as efficient.\n\"Gets me going.\"",
+   "ID": 44
+ },
+ {
+   "Icon": "",
+   "Name": "Double-thick glasses",
+   "Unlock condition": "Own 100 grandmas",
+   "Base price": "500 million",
+   "Description": "Grandmas are twice as efficient.\n\"Oh... so THAT's what I've been baking.\"",
+   "ID": 110
+ },
+ {
+   "Icon": "",
+   "Name": "Aging agents",
+   "Unlock condition": "Own 150 grandmas",
+   "Base price": "50 billion",
+   "Description": "Grandmas are twice as efficient.\n\"Counter-intuitively, grandmas have the uncanny ability to become more powerful the older they get.\"",
+   "ID": 192
+ },
+ {
+   "Icon": "",
+   "Name": "Xtreme walkers",
+   "Unlock condition": "Own 200 grandmas",
+   "Base price": "50 trillion",
+   "Description": "Grandmas are twice as efficient.\n\"Complete with flame decals and a little horn that goes \"toot\".\"",
+   "ID": 294
+ },
+ {
+   "Icon": "",
+   "Name": "The Unbridling",
+   "Unlock condition": "Own 250 grandmas",
+   "Base price": "50 quadrillion",
+   "Description": "Grandmas are twice as efficient.\n\"It might be a classic tale of bad parenting, but let's see where grandma is going with this.\"",
+   "ID": 307
+ },
+ {
+   "Icon": "",
+   "Name": "Reverse dementia",
+   "Unlock condition": "Own 300 grandmas",
+   "Base price": "50 quintillion",
+   "Description": "Grandmas are twice as efficient.\n\"Extremely unsettling, and somehow even worse than the regular kind.\"",
+   "ID": 428
+ },
+ {
+   "Icon": "",
+   "Name": "Timeproof hair dyes",
+   "Unlock condition": "Own 350 grandmas",
+   "Base price": "50 sextillion",
+   "Description": "Grandmas are twice as efficient.\n\"Why do they always have those strange wispy pink dos? What do they know about candy floss that we don't?\"",
+   "ID": 480
+ },
+ {
+   "Icon": "",
+   "Name": "Good manners",
+   "Unlock condition": "Own 400 grandmas",
+   "Base price": "500 septillion",
+   "Description": "Grandmas are twice as efficient.\n\"Apparently these ladies are much more amiable if you take the time to learn their strange, ancient customs, which seem to involve saying \"please\" and \"thank you\" and staring at the sun with bulging eyes while muttering eldritch curses under your breath.\"",
+   "ID": 506
+ },
+ {
+   "Icon": "",
+   "Name": "Generation degeneration",
+   "Unlock condition": "Own 450 grandmas",
+   "Base price": "5 nonillion",
+   "Description": "Grandmas are twice as efficient.\n\"Genetic testing shows that most of your grandmas are infected with a strange degenerative disease that only seems to further their powers; the more time passes, the older they get. This should concern you.\"",
+   "ID": 662
+ },
+ {
+   "Icon": "",
+   "Name": "Visits",
+   "Unlock condition": "Own 500 grandmas",
+   "Base price": "50 decillion",
+   "Description": "Grandmas are twice as efficient.\n\"In an extensive double-blind study (sample size: 12 millions), your researchers have found evidence that grandmas are up to twice as productive if you just come by and say hi once in a while. It's nice to check up on your grans! (Do not under any circumstances ingest any tea or tea-like substances the grandmas may offer you.).\"",
+   "ID": 700
+ },
+ {
+   "Icon": "",
+   "Name": "Kitchen cabinets",
+   "Unlock condition": "Own 550 grandmas",
+   "Base price": "500 undecillion",
+   "Description": "Grandmas are twice as efficient.\n\"A grandma's kitchen cabinet is a befuddling place. Through lesser-studied aggregating instincts, grandmas will tend to gradually fill all nearby cabinets with various sorts of things, such as  curious coconut snacks or dietetic powders. By contract, these are legally yours, which opens up exciting opportunities for your substance investigation department.\"",
+   "ID": 743
+ },
+ {
+   "Icon": "",
+   "Name": "Foam-tipped canes",
+   "Unlock condition": "Own 600 grandmas",
+   "Base price": "5 tredecillion",
+   "Description": "Grandmas are twice as efficient.\n\"Perhaps the result of prolonged service, your grandmas have developed all kinds of odd and aggressive hierarchies among themselves; these will help them not hurt each other as bad during their endless turf wars.\"",
+   "ID": 840
+ }
+]},
+  {"farm":  [
+ {
+   "Icon": "",
+   "Name": "Cheap hoes",
+   "Unlock condition": "Own 1 farm",
+   "Base price": "11,000",
+   "Description": "Farms are twice as efficient.\n\"Rake in the dough!\"",
+   "ID": 10
+ },
+ {
+   "Icon": "",
+   "Name": "Fertilizer",
+   "Unlock condition": "Own 5 farms",
+   "Base price": "55,000",
+   "Description": "Farms are twice as efficient.\n\"It's chocolate, I swear.\"",
+   "ID": 11
+ },
+ {
+   "Icon": "",
+   "Name": "Cookie trees",
+   "Unlock condition": "Own 25 farms",
+   "Base price": "550,000",
+   "Description": "Farms are twice as efficient.\n\"A relative of the breadfruit.\"",
+   "ID": 12
+ },
+ {
+   "Icon": "",
+   "Name": "Genetically-modified cookies",
+   "Unlock condition": "Own 50 farms",
+   "Base price": "55 million",
+   "Description": "Farms are twice as efficient.\n\"All-natural mutations.\"",
+   "ID": 45
+ },
+ {
+   "Icon": "",
+   "Name": "Gingerbread scarecrows",
+   "Unlock condition": "Own 100 farms",
+   "Base price": "5.5 billion",
+   "Description": "Farms are twice as efficient.\n\"Staring at your crops with mischievous glee.\"",
+   "ID": 111
+ },
+ {
+   "Icon": "",
+   "Name": "Pulsar sprinklers",
+   "Unlock condition": "Own 150 farms",
+   "Base price": "550 billion",
+   "Description": "Farms are twice as efficient.\n\"There's no such thing as over-watering.  The moistest is the bestest.\"",
+   "ID": 193
+ },
+ {
+   "Icon": "",
+   "Name": "Fudge fungus",
+   "Unlock condition": "Own 200 farms",
+   "Base price": "550 trillion",
+   "Description": "Farms are twice as efficient.\n\"A sugary parasite whose tendrils help cookie growth.\nPlease do not breathe in the spores. In case of spore ingestion, seek medical help within the next 36 seconds.\"",
+   "ID": 295
+ },
+ {
+   "Icon": "",
+   "Name": "Wheat triffids",
+   "Unlock condition": "Own 250 farms",
+   "Base price": "550 quadrillion",
+   "Description": "Farms are twice as efficient.\n\"Taking care of crops is so much easier when your plants can just walk about and help around the farm.\nDo not pet. Do not feed. Do not attempt to converse with.\"",
+   "ID": 308
+ },
+ {
+   "Icon": "",
+   "Name": "Humane pesticides",
+   "Unlock condition": "Own 300 farms",
+   "Base price": "550 quintillion",
+   "Description": "Farms are twice as efficient.\n\"Made by people, for people, from people and ready to unleash some righteous scorching pain on those pesky insects that so deserve it.\"",
+   "ID": 429
+ },
+ {
+   "Icon": "",
+   "Name": "Barnstars",
+   "Unlock condition": "Own 350 farms",
+   "Base price": "550 sextillion",
+   "Description": "Farms are twice as efficient.\n\"Ah, yes. These help quite a bit. Somehow.\"",
+   "ID": 481
+ },
+ {
+   "Icon": "",
+   "Name": "Lindworms",
+   "Unlock condition": "Own 400 farms",
+   "Base price": "5.5 octillion",
+   "Description": "Farms are twice as efficient.\n\"You have to import these from far up north, but they really help areate the soil!\"",
+   "ID": 507
+ },
+ {
+   "Icon": "",
+   "Name": "Global seed vault",
+   "Unlock condition": "Own 450 farms",
+   "Base price": "55 nonillion",
+   "Description": "Farms are twice as efficient.\n\"An enormous genetic repository that could outlive an apocalypse. Guarantees the survival of your empire, or at the very least its agricultural components, should civilization fall. Which should be any day now.\"",
+   "ID": 663
+ },
+ {
+   "Icon": "",
+   "Name": "Reverse-veganism",
+   "Unlock condition": "Own 500 farms",
+   "Base price": "550 decillion",
+   "Description": "Farms are twice as efficient.\n\"Plants aren't for eating, plants are for exploitative agriculture and astronomical profit margins!\"",
+   "ID": 701
+ },
+ {
+   "Icon": "",
+   "Name": "Cookie mulch",
+   "Unlock condition": "Own 550 farms",
+   "Base price": "5.5 duodecillion",
+   "Description": "Farms are twice as efficient.\n\"Grinding surplus cookies into paste that you then spread onto your fields enables a strange feedback loop in the quality of your cookie crops. Cookie feeding on cookie should be an abomination, but then why does it taste so good?\"",
+   "ID": 744
+ },
+ {
+   "Icon": "",
+   "Name": "Self-driving tractors",
+   "Unlock condition": "Own 600 farms",
+   "Base price": "55 tredecillion",
+   "Description": "Farms are twice as efficient.\n\"Embarked AI lets your field vehicles sow and harvest cookie crops at any time of the day or night, and with so few human casualties, too!\"",
+   "ID": 841
+ }
+]},
+  {"mine": [
+	  {
+   "Icon": "",
+   "Name": "Sugar gas",
+   "Unlock condition": "Own 1 mine",
+   "Base price": "120,000",
+   "Description": "Mines are twice as efficient.\n\"A pink, volatile gas, found in the depths of some chocolate caves.\"",
+   "ID": 16
+ },
+ {
+   "Icon": "",
+   "Name": "Megadrill",
+   "Unlock condition": "Own 5 mines",
+   "Base price": "600,000",
+   "Description": "Mines are twice as efficient.\n\"You're in deep.\"",
+   "ID": 17
+ },
+ {
+   "Icon": "",
+   "Name": "Ultradrill",
+   "Unlock condition": "Own 25 mines",
+   "Base price": "6 million",
+   "Description": "Mines are twice as efficient.\n\"Finally caved in?\"",
+   "ID": 18
+ },
+ {
+   "Icon": "",
+   "Name": "Ultimadrill",
+   "Unlock condition": "Own 50 mines",
+   "Base price": "600 million",
+   "Description": "Mines are twice as efficient.\n\"Pierce the heavens, etc.\"",
+   "ID": 47
+ },
+ {
+   "Icon": "",
+   "Name": "H-bomb mining",
+   "Unlock condition": "Own 100 mines",
+   "Base price": "60 billion",
+   "Description": "Mines are twice as efficient.\n\"Questionable efficiency, but spectacular nonetheless.\"",
+   "ID": 113
+ },
+ {
+   "Icon": "",
+   "Name": "Coreforge",
+   "Unlock condition": "Own 150 mines",
+   "Base price": "6 trillion",
+   "Description": "Mines are twice as efficient.\n\"You've finally dug a tunnel down to the Earth's core.  It's pretty warm down here.\"",
+   "ID": 195
+ },
+ {
+   "Icon": "",
+   "Name": "Planetsplitters",
+   "Unlock condition": "Own 200 mines",
+   "Base price": "6 quadrillion",
+   "Description": "Mines are twice as efficient.\n\"These new state-of-the-art excavators have been tested on Merula, Globort and Flwanza VI, among other distant planets which have been curiously quiet lately.\"",
+   "ID": 296
+ },
+ {
+   "Icon": "",
+   "Name": "Canola oil wells",
+   "Unlock condition": "Own 250 mines",
+   "Base price": "6 quintillion",
+   "Description": "Mines are twice as efficient.\n\"A previously untapped resource, canola oil permeates the underground olifers which grant it its particular taste and lucrative properties.\"",
+   "ID": 309
+ },
+ {
+   "Icon": "",
+   "Name": "Mole people",
+   "Unlock condition": "Own 300 mines",
+   "Base price": "6 sextillion",
+   "Description": "Mines are twice as efficient.\n\"Engineered from real human beings within your very labs, these sturdy little folks have a knack for finding the tastiest underground minerals in conditions that more expensive machinery probably wouldn't survive.\"",
+   "ID": 430
+ },
+ {
+   "Icon": "",
+   "Name": "Mine canaries",
+   "Unlock condition": "Own 350 mines",
+   "Base price": "6 septillion",
+   "Description": "Mines are twice as efficient.\n\"These aren't used for anything freaky! The miners just enjoy having a pet or two down there.\"",
+   "ID": 482
+ },
+ {
+   "Icon": "",
+   "Name": "Bore again",
+   "Unlock condition": "Own 400 mines",
+   "Base price": "60 octillion",
+   "Description": "Mines are twice as efficient.\n\"After extracting so much sediment for so long, you've formed some veritable mountains of your own from the accumulated piles of rock and dirt. Time to dig through those and see if you find anything fun!\"",
+   "ID": 508
+ },
+ {
+   "Icon": "",
+   "Name": "Air mining",
+   "Unlock condition": "Own 450 mines",
+   "Base price": "600 nonillion",
+   "Description": "Mines are twice as efficient.\n\"You've dug your drills through just about every solid surface you could find. But did you know recent advances have revealed untold riches hiding within non-solid surfaces too?\"",
+   "ID": 664
+ },
+ {
+   "Icon": "",
+   "Name": "Caramel alloys",
+   "Unlock condition": "Own 500 mines",
+   "Base price": "6 undecillion",
+   "Description": "Mines are twice as efficient.\n\"Your geologists have isolated a family of once-overlooked sugary ores that, when combined, may be turned into even more cookie ingredients. Your millions of miles of previously useless tunnels probably house insane amounts of the stuff!\"",
+   "ID": 702
+ },
+ {
+   "Icon": "",
+   "Name": "Delicious mineralogy",
+   "Unlock condition": "Own 550 mines",
+   "Base price": "60 duodecillion",
+   "Description": "Mines are twice as efficient.\n\"Stratum after stratum, you've extracted strange new minerals heretofore unknown to geology. Ushering a new era of materials research, your scientists have been able to identify every new element your mines have discovered, including whatever those things are in the upgrade tier names.\"",
+   "ID": 745
+ },
+ {
+   "Icon": "",
+   "Name": "Mineshaft supports",
+   "Unlock condition": "Own 600 mines",
+   "Base price": "600 tredecillion",
+   "Description": "Mines are twice as efficient.\n\"You were rather skeptical about installing such embarrassingly low-tech implements, but limiting the number of daily cave-ins really does help with that annoying employee turnover!\"",
+   "ID": 842
+ }
+]},
+  {"factory" : [
+ {
+   "Icon": "",
+   "Name": "Sturdier conveyor belts",
+   "Unlock condition": "Own 1 factory",
+   "Base price": "1.3 million",
+   "Description": "Factories are twice as efficient.\n\"You're going places.\"",
+   "ID": 13
+ },
+ {
+   "Icon": "",
+   "Name": "Child labor",
+   "Unlock condition": "Own 5 factories",
+   "Base price": "6.5 million",
+   "Description": "Factories are twice as efficient.\n\"Cheaper, healthier workforce.\"",
+   "ID": 14
+ },
+ {
+   "Icon": "",
+   "Name": "Sweatshop",
+   "Unlock condition": "Own 25 factories",
+   "Base price": "65 million",
+   "Description": "Factories are twice as efficient.\n\"Slackers will be terminated.\"",
+   "ID": 15
+ },
+ {
+   "Icon": "",
+   "Name": "Radium reactors",
+   "Unlock condition": "Own 50 factories",
+   "Base price": "6.5 billion",
+   "Description": "Factories are twice as efficient.\n\"Gives your cookies a healthy glow.\"",
+   "ID": 46
+ },
+ {
+   "Icon": "",
+   "Name": "Recombobulators",
+   "Unlock condition": "Own 100 factories",
+   "Base price": "650 billion",
+   "Description": "Factories are twice as efficient.\n\"A major part of cookie recombobulation.\"",
+   "ID": 112
+ },
+ {
+   "Icon": "",
+   "Name": "Deep-bake process",
+   "Unlock condition": "Own 150 factories",
+   "Base price": "65 trillion",
+   "Description": "Factories are twice as efficient.\n\"A patented process increasing cookie yield two-fold for the same amount of ingredients.  Don't ask how, don't take pictures, and be sure to wear your protective suit.\"",
+   "ID": 194
+ },
+ {
+   "Icon": "",
+   "Name": "Cyborg workforce",
+   "Unlock condition": "Own 200 factories",
+   "Base price": "65 quadrillion",
+   "Description": "Factories are twice as efficient.\n\"Semi-synthetic organisms don't slack off, don't unionize, and have 20% shorter lunch breaks, making them ideal labor fodder.\"",
+   "ID": 297
+ },
+ {
+   "Icon": "",
+   "Name": "78-hour days",
+   "Unlock condition": "Own 250 factories",
+   "Base price": "65 quintillion",
+   "Description": "Factories are twice as efficient.\n\"Why didn't we think of this earlier?\"",
+   "ID": 310
+ },
+ {
+   "Icon": "",
+   "Name": "Machine learning",
+   "Unlock condition": "Own 300 factories",
+   "Base price": "65 sextillion",
+   "Description": "Factories are twice as efficient.\n\"You figured you might get better productivity if you actually told your workers to learn how to work the machines. Sometimes, it's the little things...\"",
+   "ID": 431
+ },
+ {
+   "Icon": "",
+   "Name": "Brownie point system",
+   "Unlock condition": "Own 350 factories",
+   "Base price": "65 septillion",
+   "Description": "Factories are twice as efficient.\n\"Oh, these are lovely! You can now reward your factory employees for good behavior, such as working overtime or snitching on coworkers. 58 brownie points gets you a little picture of a brownie, and 178 of those pictures gets you an actual brownie piece for you to do with as you please! Infantilizing? Maybe. Oodles of fun? You betcha!\"",
+   "ID": 483
+ },
+ {
+   "Icon": "",
+   "Name": "\"Volunteer\" interns",
+   "Unlock condition": "Own 400 factories",
+   "Base price": "650 octillion",
+   "Description": "Factories are twice as efficient.\n\"If you're bad at something, always do it for free.\"",
+   "ID": 509
+ },
+ {
+   "Icon": "",
+   "Name": "Behavioral reframing",
+   "Unlock condition": "Own 450 factories",
+   "Base price": "6.5 decillion",
+   "Description": "Factories are twice as efficient.\n\"Through careful social engineering you've convinced your workers that \"union\" is a slur that only the most vile and repugnant filth among us would ever dare utter! Sometimes progress isn't in the big machines, it's in the little lies!\"",
+   "ID": 665
+ },
+ {
+   "Icon": "",
+   "Name": "The infinity engine",
+   "Unlock condition": "Own 500 factories",
+   "Base price": "65 undecillion",
+   "Description": "Factories are twice as efficient.\n\"In this house, I guess we don't care much for the laws of thermodynamics.\"",
+   "ID": 703
+ },
+ {
+   "Icon": "",
+   "Name": "N-dimensional assembly lines",
+   "Unlock condition": "Own 550 factories",
+   "Base price": "650 duodecillion",
+   "Description": "Factories are twice as efficient.\n\"Lines are depressingly 1-dimensional. Beyond assembly lines, we posit the existence of higher-order assembly entities, such as assembly squares, assembly cubes - perhaps even assembly tesseracts. Any deeper than that and we doubt we'll be able to write manuals your workers can read.\"",
+   "ID": 746
+ },
+ {
+   "Icon": "",
+   "Name": "Universal automation",
+   "Unlock condition": "Own 600 factories",
+   "Base price": "6.5 quattuordecillion",
+   "Description": "Factories are twice as efficient.\n\"It's simple common sense; the more automation, the less work you have to do! Maybe one day you'll even automate yourself out of your own job. Exciting!\"",
+   "ID": 843
+ }
+]},
+  {"bank": [
+ {
+   "Icon": "",
+   "Name": "Taller tellers",
+   "Unlock condition": "Own 1 bank",
+   "Base price": "14 million",
+   "Description": "Banks are twice as efficient.\n\"Able to process a higher amount of transactions. Careful though, as taller tellers tell tall tales.\"",
+   "ID": 232
+ },
+ {
+   "Icon": "",
+   "Name": "Scissor-resistant credit cards",
+   "Unlock condition": "Own 5 banks",
+   "Base price": "70 million",
+   "Description": "Banks are twice as efficient.\n\"For those truly valued customers.\"",
+   "ID": 233
+ },
+ {
+   "Icon": "",
+   "Name": "Acid-proof vaults",
+   "Unlock condition": "Own 25 banks",
+   "Base price": "700 million",
+   "Description": "Banks are twice as efficient.\n\"You know what they say : better safe than sorry.\"",
+   "ID": 234
+ },
+ {
+   "Icon": "",
+   "Name": "Chocolate coins",
+   "Unlock condition": "Own 50 banks",
+   "Base price": "70 billion",
+   "Description": "Banks are twice as efficient.\n\"This revolutionary currency is much easier to melt from and into ingots - and tastes much better, for a change.\"",
+   "ID": 235
+ },
+ {
+   "Icon": "",
+   "Name": "Exponential interest rates",
+   "Unlock condition": "Own 100 banks",
+   "Base price": "7 trillion",
+   "Description": "Banks are twice as efficient.\n\"Can't argue with mathematics! Now fork it over.\"",
+   "ID": 236
+ },
+ {
+   "Icon": "",
+   "Name": "Financial zen",
+   "Unlock condition": "Own 150 banks",
+   "Base price": "700 trillion",
+   "Description": "Banks are twice as efficient.\n\"The ultimate grail of economic thought; the feng shui of big money, the stock market yoga - the Heimlich maneuver of dimes and nickels.\"",
+   "ID": 237
+ },
+ {
+   "Icon": "",
+   "Name": "Way of the wallet",
+   "Unlock condition": "Own 200 banks",
+   "Base price": "700 quadrillion",
+   "Description": "Banks are twice as efficient.\n\"This new monetary school of thought is all the rage on the banking scene; follow its precepts and you may just profit from it.\"",
+   "ID": 298
+ },
+ {
+   "Icon": "",
+   "Name": "The stuff rationale",
+   "Unlock condition": "Own 250 banks",
+   "Base price": "700 quintillion",
+   "Description": "Banks are twice as efficient.\n\"If not now, when? If not it, what? If not things... stuff?\"",
+   "ID": 311
+ },
+ {
+   "Icon": "",
+   "Name": "Edible money",
+   "Unlock condition": "Own 300 banks",
+   "Base price": "700 sextillion",
+   "Description": "Banks are twice as efficient.\n\"It's really quite simple; you make all currency too delicious not to eat, solving world hunger and inflation in one fell swoop!\"",
+   "ID": 432
+ },
+ {
+   "Icon": "",
+   "Name": "Grand supercycle",
+   "Unlock condition": "Own 350 banks",
+   "Base price": "700 septillion",
+   "Description": "Banks are twice as efficient.\n\"We let the public think these are complicated financial terms when really we're just rewarding the bankers with snazzy bicycles for a job well done. It's only natural after you built those fancy gold swimming pools for them, where they can take a dip and catch Kondratiev waves.\"",
+   "ID": 484
+ },
+ {
+   "Icon": "",
+   "Name": "Rules of acquisition",
+   "Unlock condition": "Own 400 banks",
+   "Base price": "7 nonillion",
+   "Description": "Banks are twice as efficient.\n\"Rule 387 : a cookie baked is a cookie kept.\"",
+   "ID": 510
+ },
+ {
+   "Icon": "",
+   "Name": "Altruistic loop",
+   "Unlock condition": "Own 450 banks",
+   "Base price": "70 decillion",
+   "Description": "Banks are twice as efficient.\n\"You control so many branches of the global economy and legislative bodies that, through a particularly creative loophole, donating money (to yourself) grants you even more cash in tax deductions than you started with!\"",
+   "ID": 666
+ },
+ {
+   "Icon": "",
+   "Name": "Diminishing tax returns",
+   "Unlock condition": "Own 500 banks",
+   "Base price": "700 undecillion",
+   "Description": "Banks are twice as efficient.\n\"Wow, they're tiny! Wish you'd thought of that sooner!\"",
+   "ID": 704
+ },
+ {
+   "Icon": "",
+   "Name": "Cookie Points",
+   "Unlock condition": "Own 550 banks",
+   "Base price": "7 tredecillion",
+   "Description": "Banks are twice as efficient.\n\"A loyalty program wherein each purchase of your cookies comes with free Cookie Points, which can in turn be redeemed for more cookies, thus creating the self-sustaining economy you've been looking for.\"",
+   "ID": 747
+ },
+ {
+   "Icon": "",
+   "Name": "The big shortcake",
+   "Unlock condition": "Own 600 banks",
+   "Base price": "70 quattuordecillion",
+   "Description": "Banks are twice as efficient.\n\"You're not quite sure what this entails, but it must have been quite the cake for folks to lose their homes over it.\"",
+   "ID": 844
+ }
+]},
+  {"temple": [
+ {
+   "Icon": "",
+   "Name": "Golden idols",
+   "Unlock condition": "Own 1 temple",
+   "Base price": "200 million",
+   "Description": "Temples are twice as efficient.\n\"Lure even greedier adventurers to retrieve your cookies. Now that's a real idol game!\"",
+   "ID": 238
+ },
+ {
+   "Icon": "",
+   "Name": "Sacrifices",
+   "Unlock condition": "Own 5 temples",
+   "Base price": "1 billion",
+   "Description": "Temples are twice as efficient.\n\"What's a life to a gigaton of cookies?\"",
+   "ID": 239
+ },
+ {
+   "Icon": "",
+   "Name": "Delicious blessing",
+   "Unlock condition": "Own 25 temples",
+   "Base price": "10 billion",
+   "Description": "Temples are twice as efficient.\n\"And lo, the Baker's almighty spoon came down and distributed holy gifts unto the believers - shimmering sugar, and chocolate dark as night, and all manner of wheats. And boy let me tell you, that party was mighty gnarly.\"",
+   "ID": 240
+ },
+ {
+   "Icon": "",
+   "Name": "Sun festival",
+   "Unlock condition": "Own 50 temples",
+   "Base price": "1 trillion",
+   "Description": "Temples are twice as efficient.\n\"Free the primordial powers of your temples with these annual celebrations involving fire-breathers, traditional dancing, ritual beheadings and other merriments!\"",
+   "ID": 241
+ },
+ {
+   "Icon": "",
+   "Name": "Enlarged pantheon",
+   "Unlock condition": "Own 100 temples",
+   "Base price": "100 trillion",
+   "Description": "Temples are twice as efficient.\n\"Enough spiritual inadequacy! More divinities than you'll ever need, or your money back! 100% guaranteed!\"",
+   "ID": 242
+ },
+ {
+   "Icon": "",
+   "Name": "Great Baker in the sky",
+   "Unlock condition": "Own 150 temples",
+   "Base price": "10 quadrillion",
+   "Description": "Temples are twice as efficient.\n\"This is it. The ultimate deity has finally cast Their sublimely divine eye upon your operation; whether this is a good thing or possibly the end of days is something you should find out very soon.\"",
+   "ID": 243
+ },
+ {
+   "Icon": "",
+   "Name": "Creation myth",
+   "Unlock condition": "Own 200 temples",
+   "Base price": "10 quintillion",
+   "Description": "Temples are twice as efficient.\n\"Stories have been circulating about the origins of the very first cookie that was ever baked; tales of how it all began, in the Dough beyond time and the Ovens of destiny.\"",
+   "ID": 299
+ },
+ {
+   "Icon": "",
+   "Name": "Theocracy",
+   "Unlock condition": "Own 250 temples",
+   "Base price": "10 sextillion",
+   "Description": "Temples are twice as efficient.\n\"You've turned your cookie empire into a perfect theocracy, gathering the adoration of zillions of followers from every corner of the universe.\nDon't let it go to your head.\"",
+   "ID": 312
+ },
+ {
+   "Icon": "",
+   "Name": "Sick rap prayers",
+   "Unlock condition": "Own 300 temples",
+   "Base price": "10 septillion",
+   "Description": "Temples are twice as efficient.\n\"With their ill beat and radical rhymes, these way-hip religious tunes are sure to get all the youngins who thought they were 2 cool 4 church back on the pews and praying for more! Wicked!\"",
+   "ID": 433
+ },
+ {
+   "Icon": "",
+   "Name": "Psalm-reading",
+   "Unlock condition": "Own 350 temples",
+   "Base price": "10 octillion",
+   "Description": "Temples are twice as efficient.\n\"A theologically dubious and possibly blasphemous blend of fortune-telling and scripture studies.\"",
+   "ID": 485
+ },
+ {
+   "Icon": "",
+   "Name": "War of the gods",
+   "Unlock condition": "Own 400 temples",
+   "Base price": "100 nonillion",
+   "Description": "Temples are twice as efficient.\n\"An interesting game; the only winning move is not to pray.\"",
+   "ID": 511
+ },
+ {
+   "Icon": "",
+   "Name": "A novel idea",
+   "Unlock condition": "Own 450 temples",
+   "Base price": "1 undecillion",
+   "Description": "Temples are twice as efficient.\n\"You don't get rich starting a religion. If you want to get rich, you write science fiction.\"",
+   "ID": 667
+ },
+ {
+   "Icon": "",
+   "Name": "Apparitions",
+   "Unlock condition": "Own 500 temples",
+   "Base price": "10 duodecillion",
+   "Description": "Temples are twice as efficient.\n\"You've booked a deal with the higher-ups that schedules one weekly earthly apparition by a deity, angel, ascended prophet, or other holy figure. This should boost interest in cookie religion among youths as long as you can secure a decent time slot.\"",
+   "ID": 705
+ },
+ {
+   "Icon": "",
+   "Name": "Negatheism",
+   "Unlock condition": "Own 550 temples",
+   "Base price": "100 tredecillion",
+   "Description": "Temples are twice as efficient.\n\"Polytheism is a belief in multiple deities; monotheism in just one. Atheism is a belief in no deity whatsoever. Through logical succession it follows that this remains true when going into negative numbers, with belief systems involving minus 1 or more deities displaying unprecedented theological properties.\"",
+   "ID": 748
+ },
+ {
+   "Icon": "",
+   "Name": "Temple traps",
+   "Unlock condition": "Own 600 temples",
+   "Base price": "1 quindecillion",
+   "Description": "Temples are twice as efficient.\n\"You've laid out your temples with (metaphorical) pitfalls, forcing adventurers to navigate through trappings (of power and wealth), ensuring that only the most pious (and poison dart-resistant) of them return with your precious cookies. These temples may be veritable mazes (of the soul) but perhaps you've lost yourself a little bit in the analogy too.\"",
+   "ID": 845
+ }
+]},
+  {"wizardTower": [
+ {
+   "Icon": "",
+   "Name": "Pointier hats",
+   "Unlock condition": "Own 1 wizard tower",
+   "Base price": "3.3 billion",
+   "Description": "Wizard towers are twice as efficient.\n\"Tests have shown increased thaumic receptivity relative to the geometric proportions of wizardly conic implements.\"",
+   "ID": 244
+ },
+ {
+   "Icon": "",
+   "Name": "Beardlier beards",
+   "Unlock condition": "Own 5 wizard towers",
+   "Base price": "16.5 billion",
+   "Description": "Wizard towers are twice as efficient.\n\"Haven't you heard? The beard is the word.\"",
+   "ID": 245
+ },
+ {
+   "Icon": "",
+   "Name": "Ancient grimoires",
+   "Unlock condition": "Own 25 wizard towers",
+   "Base price": "165 billion",
+   "Description": "Wizard towers are twice as efficient.\n\"Contain interesting spells such as \"Turn Water To Drool\", \"Grow Eyebrows On Furniture\" and \"Summon Politician\".\"",
+   "ID": 246
+ },
+ {
+   "Icon": "",
+   "Name": "Kitchen curses",
+   "Unlock condition": "Own 50 wizard towers",
+   "Base price": "16.5 trillion",
+   "Description": "Wizard towers are twice as efficient.\n\"Exotic magic involved in all things pastry-related. Hexcellent!\"",
+   "ID": 247
+ },
+ {
+   "Icon": "",
+   "Name": "School of sorcery",
+   "Unlock condition": "Own 100 wizard towers",
+   "Base price": "1.65 quadrillion",
+   "Description": "Wizard towers are twice as efficient.\n\"This cookie-funded academy of witchcraft is home to the 4 prestigious houses of magic : the Jocks, the Nerds, the Preps, and the Deathmunchers.\"",
+   "ID": 248
+ },
+ {
+   "Icon": "",
+   "Name": "Dark formulas",
+   "Unlock condition": "Own 150 wizard towers",
+   "Base price": "165 quadrillion",
+   "Description": "Wizard towers are twice as efficient.\n\"Eldritch forces are at work behind these spells - you get the feeling you really shouldn't be messing with those. But I mean, free cookies, right?\"",
+   "ID": 249
+ },
+ {
+   "Icon": "",
+   "Name": "Cookiemancy",
+   "Unlock condition": "Own 200 wizard towers",
+   "Base price": "165 quintillion",
+   "Description": "Wizard towers are twice as efficient.\n\"There it is; the perfected school of baking magic. From summoning chips to hexing nuts, there is not a single part of cookie-making that hasn't been improved tenfold by magic tricks.\"",
+   "ID": 300
+ },
+ {
+   "Icon": "",
+   "Name": "Rabbit trick",
+   "Unlock condition": "Own 250 wizard towers",
+   "Base price": "165 sextillion",
+   "Description": "Wizard towers are twice as efficient.\n\"Using nothing more than a fancy top hat, your wizards have found a way to simultaneously curb rabbit population and produce heaps of extra cookies for basically free!\nResulting cookies may or may not be fit for vegans.\"",
+   "ID": 313
+ },
+ {
+   "Icon": "",
+   "Name": "Deluxe tailored wands",
+   "Unlock condition": "Own 300 wizard towers",
+   "Base price": "165 septillion",
+   "Description": "Wizard towers are twice as efficient.\n\"In this age of science, most skillful wand-makers are now long gone; but thankfully - not all those wanders are lost.\"",
+   "ID": 434
+ },
+ {
+   "Icon": "",
+   "Name": "Immobile spellcasting",
+   "Unlock condition": "Own 350 wizard towers",
+   "Base price": "165 octillion",
+   "Description": "Wizard towers are twice as efficient.\n\"Wizards who master this skill can now cast spells without having to hop and skip and gesticulate embarrassingly, which is much sneakier and honestly quite a relief.\"",
+   "ID": 486
+ },
+ {
+   "Icon": "",
+   "Name": "Electricity",
+   "Unlock condition": "Own 400 wizard towers",
+   "Base price": "1.65 decillion",
+   "Description": "Wizard towers are twice as efficient.\n\"Ancient magicks and forbidden hexes shroud this arcane knowledge, whose unfathomable power can mysteriously turn darkness into light and shock an elephant to death.\"",
+   "ID": 512
+ },
+ {
+   "Icon": "",
+   "Name": "Spelling bees",
+   "Unlock condition": "Own 450 wizard towers",
+   "Base price": "16.5 undecillion",
+   "Description": "Wizard towers are twice as efficient.\n\"You've unleashed a swarm of magically-enhanced bees upon mankind! Their stinging spells may be the bane of all living things but you're certain you can put their delicious, purple, fizzy honey to good use!\"",
+   "ID": 668
+ },
+ {
+   "Icon": "",
+   "Name": "Wizard basements",
+   "Unlock condition": "Own 500 wizard towers",
+   "Base price": "165 duodecillion",
+   "Description": "Wizard towers are twice as efficient.\n\"You've received construction permits allowing you to build basements underneath each wizard tower. This provides a handy storage space for precious reagents, fizzled-out soul gems, and weird old magazines.\"",
+   "ID": 706
+ },
+ {
+   "Icon": "",
+   "Name": "Magical realism",
+   "Unlock condition": "Own 550 wizard towers",
+   "Base price": "1.65 quattuordecillion",
+   "Description": "Wizard towers are twice as efficient.\n\"More a social than thaumaturgical progress, magical realism refers to the normalization of modern technology among magic-users. It's totally fine for a wizard to drive a car! There's no stigma in waiting in line for coffee! Sure, take a phone call, send an email, whatever!\"",
+   "ID": 749
+ },
+ {
+   "Icon": "",
+   "Name": "Polymorphism",
+   "Unlock condition": "Own 600 wizard towers",
+   "Base price": "16.5 quindecillion",
+   "Description": "Wizard towers are twice as efficient.\n\"This astonishing new field of spellcasting can change any creature into another, its most widespread application being a wizard turning themselves into a different, smarter, stronger, more attractive wizard.\"",
+   "ID": 846
+ }
+]},
+  {"shipment": [
+ {
+   "Icon": "",
+   "Name": "Vanilla nebulae",
+   "Unlock condition": "Own 1 shipment",
+   "Base price": "51 billion",
+   "Description": "Shipments are twice as efficient.\n\"If you removed your space helmet, you could probably smell it!\n(Note : don't do that.)\"",
+   "ID": 19
+ },
+ {
+   "Icon": "",
+   "Name": "Wormholes",
+   "Unlock condition": "Own 5 shipments",
+   "Base price": "255 billion",
+   "Description": "Shipments are twice as efficient.\n\"By using these as shortcuts, your ships can travel much faster.\"",
+   "ID": 20
+ },
+ {
+   "Icon": "",
+   "Name": "Frequent flyer",
+   "Unlock condition": "Own 25 shipments",
+   "Base price": "2.55 trillion",
+   "Description": "Shipments  are twice as efficient.\n\"Come back soon!\"",
+   "ID": 21
+ },
+ {
+   "Icon": "",
+   "Name": "Warp drive",
+   "Unlock condition": "Own 50 shipments",
+   "Base price": "255 trillion",
+   "Description": "Shipments are twice as efficient.\n\"To boldly bake.\"",
+   "ID": 48
+ },
+ {
+   "Icon": "",
+   "Name": "Chocolate monoliths",
+   "Unlock condition": "Own 100 shipments",
+   "Base price": "25.5 quadrillion",
+   "Description": "Shipments are twice as efficient.\n\"My god. It's full of chocolate bars.\"",
+   "ID": 114
+ },
+ {
+   "Icon": "",
+   "Name": "Generation ship",
+   "Unlock condition": "Own 150 shipments",
+   "Base price": "2.55 quintillion",
+   "Description": "Shipments are twice as efficient.\n\"Built to last, this humongous spacecraft will surely deliver your cookies to the deep ends of space, one day.\"",
+   "ID": 196
+ },
+ {
+   "Icon": "",
+   "Name": "Dyson sphere",
+   "Unlock condition": "Own 200 shipments",
+   "Base price": "2.55 sextillion",
+   "Description": "Shipments are twice as efficient.\n\"You've found a way to apply your knowledge of cosmic technology to slightly more local endeavors; this gigantic sphere of meta-materials, wrapping the solar system, is sure to kick your baking abilities up a notch.\"",
+   "ID": 301
+ },
+ {
+   "Icon": "",
+   "Name": "The final frontier",
+   "Unlock condition": "Own 250 shipments",
+   "Base price": "2.55 septillion",
+   "Description": "Shipments are twice as efficient.\n\"It's been a long road, getting from there to here. It's all worth it though - the sights are lovely and the oil prices slightly more reasonable.\"",
+   "ID": 314
+ },
+ {
+   "Icon": "",
+   "Name": "Autopilot",
+   "Unlock condition": "Own 300 shipments",
+   "Base price": "2.55 octillion",
+   "Description": "Shipments are twice as efficient.\n\"Your ships are now fitted with completely robotic crews! It's crazy how much money you save when you don't have to compensate the families of those lost in space.\"",
+   "ID": 435
+ },
+ {
+   "Icon": "",
+   "Name": "Restaurants at the end of the universe",
+   "Unlock condition": "Own 350 shipments",
+   "Base price": "2.55 nonillion",
+   "Description": "Shipments are twice as efficient.\n\"Since the universe is spatially infinite, and therefore can be construed to have infinite ends, you've opened an infinite chain of restaurants where your space truckers can rest and partake in some home-brand cookie-based meals.\"",
+   "ID": 487
+ },
+ {
+   "Icon": "",
+   "Name": "Universal alphabet",
+   "Unlock condition": "Own 400 shipments",
+   "Base price": "25.5 decillion",
+   "Description": "Shipments are twice as efficient.\n\"You've managed to chart a language that can be understood by any sentient species in the galaxy; its exciting vocabulary contains over 56 trillion words that sound and look like sparkly burps, forming intricate sentences that usually translate to something like \"give us your cookies, or else\".\"",
+   "ID": 513
+ },
+ {
+   "Icon": "",
+   "Name": "Toroid universe",
+   "Unlock condition": "Own 450 shipments",
+   "Base price": "255 undecillion",
+   "Description": "Shipments are twice as efficient.\n\"If you think of the universe as an nth-dimensional torus that wraps back on itself in every direction, you can save a fortune on rocket fuel! Of course the universe isn't actually shaped like that, but you've never let details stand in your way.\"",
+   "ID": 669
+ },
+ {
+   "Icon": "",
+   "Name": "Prime directive",
+   "Unlock condition": "Own 500 shipments",
+   "Base price": "2.55 tredecillion",
+   "Description": "Shipments are twice as efficient.\n\"An intergalactic delegation made you pinky-swear not to directly interact with lesser alien cultures. Which is fine, because it's much funnier to rob a planet blind when its inhabitants have no idea what's going on.\"",
+   "ID": 707
+ },
+ {
+   "Icon": "",
+   "Name": "Cosmic foreground radiation",
+   "Unlock condition": "Own 550 shipments",
+   "Base price": "25.5 quattuordecillion",
+   "Description": "Shipments are twice as efficient.\n\"Ah, this is a problem.\"",
+   "ID": 750
+ },
+ {
+   "Icon": "",
+   "Name": "At your doorstep in 30 minutes or your money back",
+   "Unlock condition": "Own 600 shipments",
+   "Base price": "255 quindecillion",
+   "Description": "Shipments are twice as efficient.\n\"Refund policies help rope in a ton of new clients and have practically no impact on your bottom line. You possess absolute mastery over time and space. You're never late. You couldn't be late if you tried.\"",
+   "ID": 847
+ }
+]},
+  {"alchemyLab": [
+ {
+   "Icon": "",
+   "Name": "Antimony",
+   "Unlock condition": "Own 1 alchemy lab",
+   "Base price": "750 billion",
+   "Description": "Alchemy labs are twice as efficient.\n\"Actually worth a lot of mony.\"",
+   "ID": 22
+ },
+ {
+   "Icon": "",
+   "Name": "Essence of dough",
+   "Unlock condition": "Own 5 alchemy labs",
+   "Base price": "3.75 trillion",
+   "Description": "Alchemy labs are twice as efficient.\n\"Extracted through the 5 ancient steps of alchemical baking.\"",
+   "ID": 23
+ },
+ {
+   "Icon": "",
+   "Name": "True chocolate",
+   "Unlock condition": "Own 25 alchemy labs",
+   "Base price": "37.5 trillion",
+   "Description": "Alchemy labs are twice as efficient.\n\"The purest form of cacao.\"",
+   "ID": 24
+ },
+ {
+   "Icon": "",
+   "Name": "Ambrosia",
+   "Unlock condition": "Own 50 alchemy labs",
+   "Base price": "3.75 quadrillion",
+   "Description": "Alchemy labs are twice as efficient.\n\"Adding this to the cookie mix is sure to make them even more addictive!\nPerhaps dangerously so.\nLet's hope you can keep selling these legally.\"",
+   "ID": 49
+ },
+ {
+   "Icon": "",
+   "Name": "Aqua crustulae",
+   "Unlock condition": "Own 100 alchemy labs",
+   "Base price": "375 quadrillion",
+   "Description": "Alchemy labs are twice as efficient.\n\"Careful with the dosing - one drop too much and you get muffins.\nAnd nobody likes muffins.\"",
+   "ID": 115
+ },
+ {
+   "Icon": "",
+   "Name": "Origin crucible",
+   "Unlock condition": "Own 150 alchemy labs",
+   "Base price": "37.5 quintillion",
+   "Description": "Alchemy labs are twice as efficient.\n\"Built from the rarest of earths and located at the very deepest of the largest mountain, this legendary crucible is said to retain properties from the big-bang itself.\"",
+   "ID": 197
+ },
+ {
+   "Icon": "",
+   "Name": "Theory of atomic fluidity",
+   "Unlock condition": "Own 200 alchemy labs",
+   "Base price": "37.5 sextillion",
+   "Description": "Alchemy labs are twice as efficient.\n\"Pushing alchemy to its most extreme limits, you find that everything is transmutable into anything else - lead to gold, mercury to water; more importantly, you realize that anything can -and should- be converted to cookies.\"",
+   "ID": 302
+ },
+ {
+   "Icon": "",
+   "Name": "Beige goo",
+   "Unlock condition": "Own 250 alchemy labs",
+   "Base price": "37.5 septillion",
+   "Description": "Alchemy labs are twice as efficient.\n\"Well now you've done it. Good job. Very nice. That's 3 galaxies you've just converted into cookies. Good thing you can hop from universe to universe.\"",
+   "ID": 315
+ },
+ {
+   "Icon": "",
+   "Name": "The advent of chemistry",
+   "Unlock condition": "Own 300 alchemy labs",
+   "Base price": "37.5 octillion",
+   "Description": "Alchemy labs are twice as efficient.\n\"You know what? That whole alchemy nonsense was a load of baseless rubbish. Dear god, what were you thinking?\"",
+   "ID": 436
+ },
+ {
+   "Icon": "",
+   "Name": "On second thought",
+   "Unlock condition": "Own 350 alchemy labs",
+   "Base price": "37.5 nonillion",
+   "Description": "Alchemy labs are twice as efficient.\n\"Disregard that last upgrade, alchemy is where it's at! Your eggheads just found a way to transmute children's nightmares into rare metals!\"",
+   "ID": 488
+ },
+ {
+   "Icon": "",
+   "Name": "Public betterment",
+   "Unlock condition": "Own 400 alchemy labs",
+   "Base price": "375 decillion",
+   "Description": "Alchemy labs are twice as efficient.\n\"Why do we keep trying to change useless matter into cookies, or cookies into even better cookies? Clearly, the way of the future is to change the people who eat the cookies into people with a greater understanding, appreciation and respect for the cookies they're eating. Into the vat you go!\"",
+   "ID": 514
+ },
+ {
+   "Icon": "",
+   "Name": "Hermetic reconciliation",
+   "Unlock condition": "Own 450 alchemy labs",
+   "Base price": "3.75 duodecillion",
+   "Description": "Alchemy labs are twice as efficient.\n\"It's time for modern science and the mystical domains of the occult to work together at last. What do gravitons transmute into? What if alkahest is pH-neutral? Should a homunculus have the right to vote? And other exciting questions coming to you soon, whether you like it or not.\"",
+   "ID": 670
+ },
+ {
+   "Icon": "",
+   "Name": "Chromatic cycling",
+   "Unlock condition": "Own 500 alchemy labs",
+   "Base price": "37.5 tredecillion",
+   "Description": "Alchemy labs are twice as efficient.\n\"All states of matter exist in a continuous loop. Having learned how to cycle through them, all you have to do is to freeze matter right on the state you need. For reference, the cookie state of matter is situated at precisely 163.719°, right between lamellar gas and metaplasma.\"",
+   "ID": 708
+ },
+ {
+   "Icon": "",
+   "Name": "Arcanized glassware",
+   "Unlock condition": "Own 550 alchemy labs",
+   "Base price": "375 quattuordecillion",
+   "Description": "Alchemy labs are twice as efficient.\n\"You think your lab equipment enjoys taking part in these experiments violating all sorts of modern scientific precepts? Of course not. Thankfully, you've finalized the design of specialized beakers and flasks, recycled from the same glass used by the ancients to perform primeval alchemy, and therefore much less picky about the nature of the physical world.\"",
+   "ID": 751
+ },
+ {
+   "Icon": "",
+   "Name": "The dose makes the poison",
+   "Unlock condition": "Own 600 alchemy labs",
+   "Base price": "3.75 sexdecillion",
+   "Description": "Alchemy labs are twice as efficient.\n\"Iterative recipe refinement is a noble pursuit but maybe your cookies have come to contain, well, perhaps a bit too much cookie per cookie. Tweaking it down by a couple percents has helped reduce the amount of complaints to your toxicity call centers to almost nil!\"",
+   "ID": 848
+ }
+]},
+  {"portal": [
+ {
+   "Icon": "",
+   "Name": "Ancient tablet",
+   "Unlock condition": "Own 1 portal",
+   "Base price": "10 trillion",
+   "Description": "Portals are twice as efficient.\n\"A strange slab of peanut brittle, holding an ancient cookie recipe. Neat!\"",
+   "ID": 25
+ },
+ {
+   "Icon": "",
+   "Name": "Insane oatling workers",
+   "Unlock condition": "Own 5 portals",
+   "Base price": "50 trillion",
+   "Description": "Portals are twice as efficient.\n\"ARISE, MY MINIONS!\"",
+   "ID": 26
+ },
+ {
+   "Icon": "",
+   "Name": "Soul bond",
+   "Unlock condition": "Own 25 portals",
+   "Base price": "500 trillion",
+   "Description": "Portals are twice as efficient.\n\"So I just sign up and get more cookies? Sure, whatever!\"",
+   "ID": 27
+ },
+ {
+   "Icon": "",
+   "Name": "Sanity dance",
+   "Unlock condition": "Own 50 portals",
+   "Base price": "50 quadrillion",
+   "Description": "Portals are twice as efficient.\n\"We can change if we want to.\nWe can leave our brains behind.\"",
+   "ID": 50
+ },
+ {
+   "Icon": "",
+   "Name": "Brane transplant",
+   "Unlock condition": "Own 100 portals",
+   "Base price": "5 quintillion",
+   "Description": "Portals are twice as efficient.\n\"This refers to the practice of merging higher dimensional universes, or \"branes\", with our own, in order to facilitate transit (and harvesting of precious cookie dough).\"",
+   "ID": 116
+ },
+ {
+   "Icon": "",
+   "Name": "Deity-sized portals",
+   "Unlock condition": "Own 150 portals",
+   "Base price": "500 quintillion",
+   "Description": "Portals are twice as efficient.\n\"It's almost like, say, an elder god could fit through this thing now.  Hypothetically.\"",
+   "ID": 198
+ },
+ {
+   "Icon": "",
+   "Name": "End of times back-up plan",
+   "Unlock condition": "Own 200 portals",
+   "Base price": "500 sextillion",
+   "Description": "Portals are twice as efficient.\n\"Just in case, alright?\"",
+   "ID": 303
+ },
+ {
+   "Icon": "",
+   "Name": "Maddening chants",
+   "Unlock condition": "Own 250 portals",
+   "Base price": "500 septillion",
+   "Description": "Portals are twice as efficient.\n\"A popular verse goes like so : \"jau'hn madden jau'hn madden aeiouaeiouaeiou brbrbrbrbrbrbr\"\"",
+   "ID": 316
+ },
+ {
+   "Icon": "",
+   "Name": "The real world",
+   "Unlock condition": "Own 300 portals",
+   "Base price": "500 octillion",
+   "Description": "Portals are twice as efficient.\n\"It turns out that our universe is actually the twisted dimension of another, saner plane of reality. Time to hop on over there and loot the place!\"\"",
+   "ID": 437
+ },
+ {
+   "Icon": "",
+   "Name": "Dimensional garbage gulper",
+   "Unlock condition": "Own 350 portals",
+   "Base price": "500 nonillion",
+   "Description": "Portals are twice as efficient.\n\"So we've been looking for a place to dispose of all the refuse that's been accumulating since we started baking - burnt cookies, failed experiments, unruly workers - and well, we figured rather than sell it to poor countries like we've been doing, we could just dump it in some alternate trash dimension where it's not gonna bother anybody! Probably!\"",
+   "ID": 489
+ },
+ {
+   "Icon": "",
+   "Name": "Embedded microportals",
+   "Unlock condition": "Own 400 portals",
+   "Base price": "5 undecillion",
+   "Description": "Portals are twice as efficient.\n\"We've found out that if we bake the portals into the cookies themselves, we can transport people's taste buds straight into the taste dimension! Good thing your army of lawyers got rid of the FDA a while ago!\"",
+   "ID": 515
+ },
+ {
+   "Icon": "",
+   "Name": "His advent",
+   "Unlock condition": "Own 450 portals",
+   "Base price": "50 duodecillion",
+   "Description": "Portals are twice as efficient.\n\"\"He comes! He comes at last! Just like the prophecies foretold! And as He steps out of the portal, your engineers begin slicing Him into convenient chunks before transporting His writhing cosmic flesh to your factories, where He will be processed and converted into a new and exciting cookie flavor, available tomorrow.\"",
+   "ID": 671
+ },
+ {
+   "Icon": "",
+   "Name": "Domestic rifts",
+   "Unlock condition": "Own 500 portals",
+   "Base price": "500 tredecillion",
+   "Description": "Portals are twice as efficient.\n\"You've managed to manufacture portals that are convenient enough, and legally safe enough, that you can just stick them against walls inside buildings to connect rooms together in unusual configurations. In practice, this means your employees get to have much shorter bathroom breaks.\"",
+   "ID": 709
+ },
+ {
+   "Icon": "",
+   "Name": "Portal guns",
+   "Unlock condition": "Own 550 portals",
+   "Base price": "5 quindecillion",
+   "Description": "Portals are twice as efficient.\n\"At long last! The only weapon capable of killing a portal.\"",
+   "ID": 752
+ },
+ {
+   "Icon": "",
+   "Name": "A way home",
+   "Unlock condition": "Own 600 portals",
+   "Base price": "50 sexdecillion",
+   "Description": "Portals are twice as efficient.\n\"You started this whole cookie venture on the simple kitchen counters of your own home. Your industrial and research facilities, sadly, have long since outgrown the confines of the little house, but you always knew it was still in there, buried somewhere. With a targeted portal, you could, conceivably, pay it a little visit for old times' sake...\"",
+   "ID": 849
+ }
+]},
+  {"timeMachine": [
+ {
+   "Icon": "",
+   "Name": "Flux capacitors",
+   "Unlock condition": "Own 1 time machine",
+   "Base price": "140 trillion",
+   "Description": "Time machines are twice as efficient.\n\"Bake to the future.\"",
+   "ID": 28
+ },
+ {
+   "Icon": "",
+   "Name": "Time paradox resolver",
+   "Unlock condition": "Own 5 time machines",
+   "Base price": "700 trillion",
+   "Description": "Time machines are twice as efficient.\n\"No more fooling around with your own grandmother!\"",
+   "ID": 29
+ },
+ {
+   "Icon": "",
+   "Name": "Quantum conundrum",
+   "Unlock condition": "Own 25 time machines",
+   "Base price": "7 quadrillion",
+   "Description": "Time machines are twice as efficient.\n\"There is only one constant, and that is universal uncertainty.\nOr is it?\"",
+   "ID": 30
+ },
+ {
+   "Icon": "",
+   "Name": "Causality enforcer",
+   "Unlock condition": "Own 50 time machines",
+   "Base price": "700 quadrillion",
+   "Description": "Time machines are twice as efficient.\n\"What happened, happened.\"",
+   "ID": 51
+ },
+ {
+   "Icon": "",
+   "Name": "Yestermorrow comparators",
+   "Unlock condition": "Own 100 time machines",
+   "Base price": "70 quintillion",
+   "Description": "Time machines are twice as efficient.\n\"Fortnights into milleniums.\"",
+   "ID": 117
+ },
+ {
+   "Icon": "",
+   "Name": "Far future enactment",
+   "Unlock condition": "Own 150 time machines",
+   "Base price": "7 sextillion",
+   "Description": "Time machines are twice as efficient.\n\"The far future enactment authorizes you to delve deep into the future - where civilization has fallen and risen again, and cookies are plentiful.\"",
+   "ID": 199
+ },
+ {
+   "Icon": "",
+   "Name": "Great loop hypothesis",
+   "Unlock condition": "Own 200 time machines",
+   "Base price": "7 septillion",
+   "Description": "Time machines are twice as efficient.\n\"What if our universe is just one instance of an infinite cycle? What if, before and after it, stretched infinite amounts of the same universe, themselves containing infinite amounts of cookies?\"",
+   "ID": 304
+ },
+ {
+   "Icon": "",
+   "Name": "Cookietopian moments of maybe",
+   "Unlock condition": "Own 250 time machines",
+   "Base price": "7 octillion",
+   "Description": "Time machines are twice as efficient.\n\"Reminiscing how things could have been, should have been, will have been.\"",
+   "ID": 317
+ },
+ {
+   "Icon": "",
+   "Name": "Second seconds",
+   "Unlock condition": "Own 300 time machines",
+   "Base price": "7 nonillion",
+   "Description": "Time machines are twice as efficient.\n\"That's twice as many seconds in the same amount of time! What a deal! Also, what in god's name!\"",
+   "ID": 438
+ },
+ {
+   "Icon": "",
+   "Name": "Additional clock hands",
+   "Unlock condition": "Own 350 time machines",
+   "Base price": "7 decillion",
+   "Description": "Time machines are twice as efficient.\n\"It seemed like a silly idea at first, but it turns out these have the strange ability to twist time in interesting new ways.\"",
+   "ID": 490
+ },
+ {
+   "Icon": "",
+   "Name": "Nostalgia",
+   "Unlock condition": "Own 400 time machines",
+   "Base price": "70 undecillion",
+   "Description": "Time machines are twice as efficient.\n\"Your time machine technicians insist that this is some advanced new time travel tech, and not just an existing emotion universal to mankind. Either way, you have to admit that selling people the same old cookies just because it reminds them of the good old times is an interesting prospect.\"",
+   "ID": 516
+ },
+ {
+   "Icon": "",
+   "Name": "Split seconds",
+   "Unlock condition": "Own 450 time machines",
+   "Base price": "700 duodecillion",
+   "Description": "Time machines are twice as efficient.\n\"Time is infinite, yes... But what if, nestled within each second, were even more infinities? Every moment an eternity! Think of how many scheduling troubles this solves!\"",
+   "ID": 672
+ },
+ {
+   "Icon": "",
+   "Name": "Patience abolished",
+   "Unlock condition": "Own 500 time machines",
+   "Base price": "7 quattuordecillion",
+   "Description": "Time machines are twice as efficient.\n\"You wait for no one.\"",
+   "ID": 710
+ },
+ {
+   "Icon": "",
+   "Name": "Timeproof upholstery",
+   "Unlock condition": "Own 550 time machines",
+   "Base price": "70 quindecillion",
+   "Description": "Time machines are twice as efficient.\n\"Sometimes your time agents overshoot and end up having to fast-forward through the universe's entire history until they loop back to present time. It still takes a while, so they might as well travel in comfort and enjoy the show while they do.\"",
+   "ID": 753
+ },
+ {
+   "Icon": "",
+   "Name": "Rectifying a mistake",
+   "Unlock condition": "Own 600 time machines",
+   "Base price": "700 sexdecillion",
+   "Description": "Time machines are twice as efficient.\n\"This whole time-travelling business has been a terrible mess and, frankly, far more trouble than was worth. It's decided: you'll hop in one of your time machines one last time, turn back the clock, knock on the door of your younger self and make a stern but convincing case against starting this entire nonsense in the first place. Oh hey, is someone at the door?\"",
+   "ID": 850
+ }
+]},
+  {"antimatterCondenser": [
+ {
+   "Icon": "",
+   "Name": "Sugar bosons",
+   "Unlock condition": "Own 1 antimatter condenser",
+   "Base price": "1.7 quadrillion",
+   "Description": "Antimatter condensers are twice as efficient.\n\"Sweet firm bosons.\"",
+   "ID": 99
+ },
+ {
+   "Icon": "",
+   "Name": "String theory",
+   "Unlock condition": "Own 5 antimatter condensers",
+   "Base price": "8.5 quadrillion",
+   "Description": "Antimatter condensers are twice as efficient.\n\"Reveals new insight about the true meaning of baking cookies (and, as a bonus, the structure of the universe).\"",
+   "ID": 100
+ },
+ {
+   "Icon": "",
+   "Name": "Large macaron collider",
+   "Unlock condition": "Own 25 antimatter condensers",
+   "Base price": "85 quadrillion",
+   "Description": "Antimatter condensers are twice as efficient.\n\"How singular!\"",
+   "ID": 101
+ },
+ {
+   "Icon": "",
+   "Name": "Big bang bake",
+   "Unlock condition": "Own 50 antimatter condensers",
+   "Base price": "8.5 quintillion",
+   "Description": "Antimatter condensers are twice as efficient.\n\"And that's how it all began.\"",
+   "ID": 102
+ },
+ {
+   "Icon": "",
+   "Name": "Reverse cyclotrons",
+   "Unlock condition": "Own 100 antimatter condensers",
+   "Base price": "850 quintillion",
+   "Description": "Antimatter condensers are twice as efficient.\n\"These can uncollision particles and unspin atoms. For... uh... better flavor, and stuff.\"",
+   "ID": 118
+ },
+ {
+   "Icon": "",
+   "Name": "Nanocosmics",
+   "Unlock condition": "Own 150 antimatter condensers",
+   "Base price": "85 sextillion",
+   "Description": "Antimatter condensers are twice as efficient.\n\"The theory of nanocosmics posits that each subatomic particle is in fact its own self-contained universe, holding unfathomable amounts of energy.\"",
+   "ID": 200
+ },
+ {
+   "Icon": "",
+   "Name": "The Pulse",
+   "Unlock condition": "Own 200 antimatter condensers",
+   "Base price": "85 septillion",
+   "Description": "Antimatter condensers are twice as efficient.\n\"You've tapped into the very pulse of the cosmos, a timeless rhythm along which every material and antimaterial thing beats in unison. This, somehow, means more cookies.\"",
+   "ID": 305
+ },
+ {
+   "Icon": "",
+   "Name": "Some other super-tiny fundamental particle? Probably?",
+   "Unlock condition": "Own 250 antimatter condensers",
+   "Base price": "85 octillion",
+   "Description": "Antimatter condensers are twice as efficient.\n\"When even the universe is running out of ideas, that's when you know you're nearing the end.\"",
+   "ID": 318
+ },
+ {
+   "Icon": "",
+   "Name": "Quantum comb",
+   "Unlock condition": "Own 300 antimatter condensers",
+   "Base price": "85 nonillion",
+   "Description": "Antimatter condensers are twice as efficient.\n\"Quantum entanglement is one of those things that are so annoying to explain that we might honestly be better off without it. This is finally possible thanks to the quantum comb!\"",
+   "ID": 439
+ },
+ {
+   "Icon": "",
+   "Name": "Baking Nobel prize",
+   "Unlock condition": "Own 350 antimatter condensers",
+   "Base price": "85 decillion",
+   "Description": "Antimatter condensers are twice as efficient.\n\"What better way to sponsor scientific growth than to motivate those smarmy nerds with a meaningless award! What's more, each prize comes with a fine print lifelong exclusive contract to come work for you (or else)!\"",
+   "ID": 491
+ },
+ {
+   "Icon": "",
+   "Name": "The definite molecule",
+   "Unlock condition": "Own 400 antimatter condensers",
+   "Base price": "850 undecillion",
+   "Description": "Antimatter condensers are twice as efficient.\n\"Your scientists have found a way to pack a cookie into one single continuous molecule, opening exciting new prospects in both storage and flavor despite the fact that these take up to a whole year to digest.\"",
+   "ID": 517
+ },
+ {
+   "Icon": "",
+   "Name": "Flavor itself",
+   "Unlock condition": "Own 450 antimatter condensers",
+   "Base price": "8.5 tredecillion",
+   "Description": "Antimatter condensers are twice as efficient.\n\"Deep under the earth, in the most sterile laboratory, in the most vast and expensive particle accelerator ever devised, your scientists have synthesized -for a fraction of a second- the physical manifestation of pure flavor. Highly unstable, and gone in a puff of radioactive energy, it nonetheless left your team shivering with awe... and hunger.\"",
+   "ID": 673
+ },
+ {
+   "Icon": "",
+   "Name": "Delicious pull",
+   "Unlock condition": "Own 500 antimatter condensers",
+   "Base price": "85 quattuordecillion",
+   "Description": "Antimatter condensers are twice as efficient.\n\"In addition to the 4 fundamental forces of the universe - gravity, electromagnetism, weak and strong interactions- your scientists have at long last confirmed the existence of a fifth one, mediated by sugar bosons; it dictates that any two masses of ingredient-like matter will, given enough time, eventually meet each other to produce a third, even tastier substance. Your team enthusiastically names it the delicious pull.\"",
+   "ID": 711
+ },
+ {
+   "Icon": "",
+   "Name": "Employee minification",
+   "Unlock condition": "Own 550 antimatter condensers",
+   "Base price": "850 quindecillion",
+   "Description": "Antimatter condensers are twice as efficient.\n\"Using molecular shrinking technology, you've rendered your staff and their offices absolutely itty-bitty. The storage and productivity benefits are questionable but it's very fun listening to their tiny little complaints. They all signed the waivers, so maybe their new size will finally teach them to read the small print...\"",
+   "ID": 754
+ },
+ {
+   "Icon": "",
+   "Name": "Candied atoms",
+   "Unlock condition": "Own 600 antimatter condensers",
+   "Base price": "8.5 septendecillion",
+   "Description": "Antimatter condensers are twice as efficient.\n\"You know what, just eat the suckers, yeah?\"",
+   "ID": 851
+ }
+]},
+  {"prism": [
+ {
+   "Icon": "",
+   "Name": "Gem polish",
+   "Unlock condition": "Own 1 prism",
+   "Base price": "21 quadrillion",
+   "Description": "Prisms are twice as efficient.\n\"Get rid of the grime and let more light in.\nTruly, truly outrageous.\"",
+   "ID": 175
+ },
+ {
+   "Icon": "",
+   "Name": "9th color",
+   "Unlock condition": "Own 5 prisms",
+   "Base price": "105 quadrillion",
+   "Description": "Prisms are twice as efficient.\n\"Delve into the untouched optical depths where even the mantis shrimp hasn't set an eye!\"",
+   "ID": 176
+ },
+ {
+   "Icon": "",
+   "Name": "Chocolate light",
+   "Unlock condition": "Own 25 prisms",
+   "Base price": "1.05 quintillion",
+   "Description": "Prisms are twice as efficient.\n\"Bask into its cocoalesence.\n(Warning : may cause various interesting albeit deadly skin conditions.)\"",
+   "ID": 177
+ },
+ {
+   "Icon": "",
+   "Name": "Grainbow",
+   "Unlock condition": "Own 50 prisms",
+   "Base price": "105 quintillion",
+   "Description": "Prisms are twice as efficient.\n\"Remember the different grains using the handy Roy G. Biv mnemonic : R is for rice, O is for Oats... uh, B for barley?...\"",
+   "ID": 178
+ },
+ {
+   "Icon": "",
+   "Name": "Pure cosmic light",
+   "Unlock condition": "Own 100 prisms",
+   "Base price": "10.5 sextillion",
+   "Description": "Prisms are twice as efficient.\n\"Your prisms now receive pristine unadulterated photons from the other end of the universe.\"",
+   "ID": 179
+ },
+ {
+   "Icon": "",
+   "Name": "Glow-in-the-dark",
+   "Unlock condition": "Own 150 prisms",
+   "Base price": "1.05 septillion",
+   "Description": "Prisms are twice as efficient.\n\"Your prisms now glow in the dark, effectively doubling their output.\"",
+   "ID": 201
+ },
+ {
+   "Icon": "",
+   "Name": "Lux sanctorum",
+   "Unlock condition": "Own 200 prisms",
+   "Base price": "1.05 octillion",
+   "Description": "Prisms are twice as efficient.\n\"Your prism attendants have become increasingly mesmerized with something in the light - or maybe something beyond it; beyond us all, perhaps?\"",
+   "ID": 306
+ },
+ {
+   "Icon": "",
+   "Name": "Reverse shadows",
+   "Unlock condition": "Own 250 prisms",
+   "Base price": "1.05 nonillion",
+   "Description": "Prisms are twice as efficient.\n\"Oh man, this is really messing with your eyes.\"",
+   "ID": 319
+ },
+ {
+   "Icon": "",
+   "Name": "Crystal mirrors",
+   "Unlock condition": "Own 300 prisms",
+   "Base price": "1.05 decillion",
+   "Description": "Prisms are twice as efficient.\n\"Designed to filter more light back into your prisms, reaching levels of brightness that reality itself had never planned for.",
+   "ID": 440
+ },
+ {
+   "Icon": "",
+   "Name": "Reverse theory of light",
+   "Unlock condition": "Own 350 prisms",
+   "Base price": "1.05 undecillion",
+   "Description": "Prisms are twice as efficient.\n\"A whole new world of physics opens up when you decide that antiphotons are real and posit that light is merely a void in shadow.\"",
+   "ID": 492
+ },
+ {
+   "Icon": "",
+   "Name": "Light capture measures",
+   "Unlock condition": "Own 400 prisms",
+   "Base price": "10.5 duodecillion",
+   "Description": "Prisms are twice as efficient.\n\"As the universe gets ever so slightly dimmer due to you converting more and more of its light into cookies, you've taken to finding new and unexplored sources of light for your prisms; for instance, the warm glow emitted by a pregnant woman, or the twinkle in the eye of a hopeful child.\"",
+   "ID": 518
+ },
+ {
+   "Icon": "",
+   "Name": "Light speed limit",
+   "Unlock condition": "Own 450 prisms",
+   "Base price": "105 tredecillion",
+   "Description": "Prisms are twice as efficient.\n\"Whoah, slow down. Harvesting light is well and good but it'd be much easier if it weren't so dang fast! This should thankfully take care of that.\"",
+   "ID": 674
+ },
+ {
+   "Icon": "",
+   "Name": "Occam's laser",
+   "Unlock condition": "Own 500 prisms",
+   "Base price": "1.05 quindecillion",
+   "Description": "Prisms are twice as efficient.\n\"Invented by Franciscan friar William of Occam in 1327. An impossibly clever use of light theory with a billion possible applications, some of which frightfully destructive. Confined to a single goat-skin parchment for hundreds of years until the patent expired and hit public domain, just now.\"",
+   "ID": 712
+ },
+ {
+   "Icon": "",
+   "Name": "Hyperblack paint",
+   "Unlock condition": "Own 550 prisms",
+   "Base price": "10.5 sexdecillion",
+   "Description": "Prisms are twice as efficient.\n\"As the technology behind your prisms evolves, their storage becomes more and more problematic: within seconds, a single prism's reflective ability can set a whole underground hangar ablaze as it catches the slightest glint of light. However, once coated with this new shade of paint, its damage may be reduced to only giving third-degree burns to employees that stand too close.\"",
+   "ID": 755
+ },
+ {
+   "Icon": "",
+   "Name": "Lab goggles but like cool shades",
+   "Unlock condition": "Own 600 prisms",
+   "Base price": "105 septendecillion",
+   "Description": "Prisms are twice as efficient.\n\"Mandatory equipment in your prismatic labs, and dashingly stylish at that. A smidge safer than just squinting at the twinkly things.\"",
+   "ID": 852
+ }
+]},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+
+]

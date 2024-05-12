@@ -17,29 +17,21 @@ var generatorName
 var id
 var maxGenerators
 var maxCpS
+var type: generator_type.Generators
 
 # STATE VARIABLES
 var isWorking = false
 
-func handle_string(input_string: String) -> float:
-	if input_string.contains(" "):
-		var parts = input_string.split(" ")
-		return mathUtils.calculate_powered_value_parse(parts[0].to_float(), parts[1])
-	elif input_string.contains(","):
-		var parts = input_string.split(",")
-		return mathUtils.calculate_powered_value(parts[0].to_float(), mathUtils.Powers.THOUSAND)
-	else:
-		return mathUtils.calculate_powered_value(input_string.to_float(), mathUtils.Powers.ZERO_POWER)
-
 func setData(data: Dictionary):
 	#~Set Properties
-	baseCost = handle_string(data.get("Base Cost"))
-	baseCps = handle_string(data.get("Base CpS"))
+	baseCost = math_utils.parseStringToFloat(data.get("Base Cost"))
+	baseCps = math_utils.parseStringToFloat(data.get("Base CpS"))
 	actualCost = baseCost
 	generatorName = data.get("Building")
 	id = data.get("ID")
 	maxGenerators = data.get("Maximum build count")
 	maxCpS = data.get("Max CpS")
+	type = generator_type.findGeneratorByName(data.get("Building"))
 	# ---
 	updateUI()
 	
@@ -69,7 +61,6 @@ func checkStatus():
 			var minValueLocked = (baseCost * 0.4)
 			if minValueLocked <= actualCoins:
 				updateUI("?????")
-				print(generatorName + " Me pongo visible: " + str(minValueLocked))
 				# Cambia estado a UNLOCK
 				actualState = GLOBAL.STATUS.UNLOCK
 				# Cambiar el efecto 
@@ -105,8 +96,9 @@ func _on_button_pressed():
 		change_coin(-actualCost)
 		#upgrade props
 		quantity +=1
-		cps += baseCps * cpsMultiplier
+		cps += baseCps
 		actualCost = actualCost * (1.15 **quantity)  
+		GLOBAL.userBuyGenerator.emit(type)
 		# -------
 		updateUI()
 		if !isWorking: 
@@ -126,9 +118,9 @@ func updateUI(label : String = "" ):
 func change_coin(value):
 	GLOBAL.change_coin(value,GLOBAL.Type.BUILDER)
 
-func upgradeActivated(generatorIds: Array, multiplier):
-	if generatorIds.has(str(id)):
-		cpsMultiplier += multiplier 
+func upgradeActivated(target: generator_type.Generators, multiplier):
+	if target == type:
+		cpsMultiplier *= multiplier 
 		updateUI()
 
 func _on_generator_timer_timeout():

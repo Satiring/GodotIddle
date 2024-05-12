@@ -3,7 +3,7 @@
 [ext_resource type="Script" path="res://scripts/Cookie.gd" id="1_644ky"]
 [ext_resource type="Theme" uid="uid://5k0knt2xudq1" path="res://assets/tres/cookieAnimation.tres" id="2_xqovl"]
 [ext_resource type="Texture2D" uid="uid://bjpoogmdmxr2p" path="res://assets/perfectCookie.png" id="3_yolma"]
-[ext_resource type="Script" path="res://scripts/SingleTypeCoinLabel.gd" id="4_34g75"]
+[ext_resource type="Script" path="res://scripts/Utils/SingleTypeCoinLabel.gd" id="4_34g75"]
 [ext_resource type="Script" path="res://scripts/Generators/GeneratorsFactory.gd" id="6_3yiw4"]
 [ext_resource type="Script" path="res://scripts/Upgrades/UpgradesFactory.gd" id="6_051gn"]
 [ext_resource type="PackedScene" uid="uid://rbpk6b205lav" path="res://scenes/upgrade.tscn" id="6_ecxh7"]
