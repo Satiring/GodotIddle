@@ -1,7 +1,8 @@
-[gd_scene load_steps=6 format=3 uid="uid://8xjejnk354r8"]
+[gd_scene load_steps=7 format=3 uid="uid://8xjejnk354r8"]
 
 [ext_resource type="Script" path="res://scripts/Generators/Generator.gd" id="1_6qjvh"]
 [ext_resource type="Texture2D" uid="uid://ch7fng4dfjqma" path="res://icon.svg" id="2_dds5s"]
+[ext_resource type="AudioStream" uid="uid://c7wf02k33nlqu" path="res://assets/sounds/cashIn.mp3" id="4_ag7kb"]
 [ext_resource type="Texture2D" uid="uid://cfqv5nvgf4pdb" path="res://assets/cookie.png" id="4_odo2j"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ehiba"]
@@ -129,6 +130,10 @@ expand_mode = 1
 
 [node name="GeneratorTimer" type="Timer" parent="."]
 unique_name_in_owner = true
+
+[node name="clickSound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("4_ag7kb")
+volume_db = -18.0
 
 [connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
 [connection signal="timeout" from="GeneratorTimer" to="." method="_on_generator_timer_timeout"]

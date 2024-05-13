@@ -1,7 +1,7 @@
 extends Node
 
 #var math_utils = preload("res://scripts/Utils/math_utils.gd")
-
+@onready var clickBuySound = $clickSound
 var cps:float = 0 #Coin per second
 var baseCps:float = 0
 var cpsMultiplier: int = 1 #UPgrade Multiplier
@@ -100,6 +100,7 @@ func _on_button_pressed():
 		actualCost = actualCost * (1.15 **quantity)  
 		GLOBAL.userBuyGenerator.emit(type)
 		# -------
+		clickBuySound.play()
 		updateUI()
 		if !isWorking: 
 			isWorking = true

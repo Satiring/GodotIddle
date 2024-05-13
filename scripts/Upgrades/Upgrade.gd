@@ -1,6 +1,6 @@
 extends Button
 
-
+@onready var upgradeSound = $upgradeSound
 #var unlocked = false
 @export var IconTexture: Texture2D
 var cost: float
@@ -26,6 +26,7 @@ func _on_button_pressed():
 		unlocked = true
 		GLOBAL.change_coin(-cost, GLOBAL.Type.UPGRADE)
 		GLOBAL.upgradeActivated.emit(generatorType, multiplier)
+		upgradeSound.play()
 		#GlOBAL.
 
 func checkStatus():
